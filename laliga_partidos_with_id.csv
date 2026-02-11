@@ -1,0 +1,381 @@
+Wk,Day,Date,Time,Home,Score,Away,Attendance,Venue,Referee,Match Report,Notes,id
+1,Fri,2025-08-15,19:00,Girona,1–3,Rayo Vallecano,12403,Estadi Municipal de Montilivi,Javier Alberola,Match Report,,247102277803306
+1,Fri,2025-08-15,21:30,Villarreal,2–0,Oviedo,18333,Estadio de la Cerámica,Alejandro Muñíz,Match Report,,127040197594831
+1,Sat,2025-08-16,19:30,Mallorca,0–3,Barcelona,23318,Estadi Mallorca Son Moix,José Luis Munuera,Match Report,,51663335405182
+1,Sat,2025-08-16,21:30,Alavés,2–1,Levante,12837,Estadio de Mendizorroza,Miguel Sesma,Match Report,,45932207628643
+1,Sat,2025-08-16,21:30,Valencia,1–1,Real Sociedad,45333,Estadio de Mestalla,Jose Maria Sánchez,Match Report,,261612402375946
+1,Sun,2025-08-17,17:00,Celta Vigo,0–2,Getafe,20530,Estadio Abanca Balaídos,Iosu Galech,Match Report,,50129590343307
+1,Sun,2025-08-17,19:30,Athletic Club,3–2,Sevilla,49134,San Mamés,Francisco Hernández,Match Report,,27919808326157
+1,Sun,2025-08-17,21:30,Espanyol,2–1,Atlético Madrid,29612,RCDE Stadium,Mateo Busquets,Match Report,,87744010723513
+1,Mon,2025-08-18,21:00,Elche,1–1,Real Betis,28585,Estadio Manuel Martínez Valero,Víctor García,Match Report,,144528646683596
+1,Tue,2025-08-19,21:00,Real Madrid,1–0,Osasuna,68407,Estadio Santiago Bernabéu,Adrián Cordero,Match Report,,111346431724064
+2,Fri,2025-08-22,21:30,Real Betis,1–0,Alavés,54646,Estadio La Cartuja de Sevilla,Miguel Ángel Ortiz Arias,Match Report,,130620005776571
+2,Sat,2025-08-23,17:00,Mallorca,1–1,Celta Vigo,16274,Estadi Mallorca Son Moix,José Guzmán,Match Report,,205247645787742
+2,Sat,2025-08-23,19:30,Atlético Madrid,1–1,Elche,59369,Riyadh Air Metropolitan Stadium,César Soto,Match Report,,179986844463039
+2,Sat,2025-08-23,21:30,Levante,2–3,Barcelona,23415,Estadio Ciudad de Valencia,Alejandro Hernández,Match Report,,244648913498441
+2,Sun,2025-08-24,17:00,Osasuna,1–0,Valencia,21226,Estadio El Sadar,Jesús Gil,Match Report,,9215938375097
+2,Sun,2025-08-24,19:30,Real Sociedad,2–2,Espanyol,31616,Reale Arena,Alejandro Quintero,Match Report,,98553906407820
+2,Sun,2025-08-24,19:30,Villarreal,5–0,Girona,18195,Estadio de la Cerámica,Guillermo Cuadra,Match Report,,50232676197012
+2,Sun,2025-08-24,21:30,Oviedo,0–3,Real Madrid,29758,Estadio Nuevo Carlos Tartiere,Ricardo de Burgos,Match Report,,261429100829799
+2,Mon,2025-08-25,19:30,Athletic Club,1–0,Rayo Vallecano,48703,San Mamés,Juan Martínez,Match Report,,190836110049714
+2,Mon,2025-08-25,21:30,Sevilla,1–2,Getafe,36697,Estadio Ramón Sánchez Pizjuán,Isidro Díaz de Mera,Match Report,,22551900963445
+6,Wed,2025-08-27,21:00,Celta Vigo,1–1,Real Betis,20302,Estadio Abanca Balaídos,Jesús Gil,Match Report,,2683705776554
+3,Fri,2025-08-29,19:30,Elche,2–0,Levante,26936,Estadio Manuel Martínez Valero,Iosu Galech,Match Report,,101892602565564
+3,Fri,2025-08-29,21:30,Valencia,3–0,Getafe,45449,Estadio de Mestalla,Francisco Hernández,Match Report,,146098540577909
+3,Sat,2025-08-30,17:00,Alavés,1–1,Atlético Madrid,18042,Estadio de Mendizorroza,Víctor García,Match Report,,165855820707949
+3,Sat,2025-08-30,19:00,Oviedo,1–0,Real Sociedad,25688,Estadio Nuevo Carlos Tartiere,Adrián Cordero,Match Report,,142778716575775
+3,Sat,2025-08-30,19:30,Girona,0–2,Sevilla,11305,Estadi Municipal de Montilivi,Miguel Ángel Ortiz Arias,Match Report,,139908708942131
+3,Sat,2025-08-30,21:30,Real Madrid,2–1,Mallorca,72699,Estadio Santiago Bernabéu,Jose Maria Sánchez,Match Report,,217989826177558
+3,Sun,2025-08-31,17:00,Celta Vigo,1–1,Villarreal,20172,Estadio Abanca Balaídos,Alejandro Quintero,Match Report,,231338422714099
+3,Sun,2025-08-31,19:00,Real Betis,1–2,Athletic Club,65222,Estadio La Cartuja de Sevilla,Isidro Díaz de Mera,Match Report,,39199701049590
+3,Sun,2025-08-31,19:30,Espanyol,1–0,Osasuna,29780,RCDE Stadium,Miguel Sesma,Match Report,,241965786970629
+3,Sun,2025-08-31,21:30,Rayo Vallecano,1–1,Barcelona,14438,Campo de Fútbol de Vallecas,Mateo Busquets,Match Report,,276097815612589
+4,Fri,2025-09-12,21:00,Sevilla,2–2,Elche,37331,Estadio Ramón Sánchez Pizjuán,Javier Alberola,Match Report,,81333748194840
+4,Sat,2025-09-13,14:00,Getafe,2–0,Oviedo,8657,Coliseum Alfonso Pérez,José Guzmán,Match Report,,116211101997292
+4,Sat,2025-09-13,16:15,Real Sociedad,1–2,Real Madrid,36958,Reale Arena,Jesús Gil,Match Report,,114635918702971
+4,Sat,2025-09-13,18:30,Athletic Club,0–1,Alavés,49136,San Mamés,Jose Maria Sánchez,Match Report,,119223823403712
+4,Sat,2025-09-13,21:00,Atlético Madrid,2–0,Villarreal,63312,Riyadh Air Metropolitan Stadium,José Luis Munuera,Match Report,,170064145885084
+4,Sun,2025-09-14,14:00,Celta Vigo,1–1,Girona,18862,Estadio Abanca Balaídos,Adrián Cordero,Match Report,,10121462386030
+4,Sun,2025-09-14,16:15,Levante,2–2,Real Betis,21938,Estadio Ciudad de Valencia,Alejandro Muñíz,Match Report,,192735037523147
+4,Sun,2025-09-14,18:30,Osasuna,2–0,Rayo Vallecano,20511,Estadio El Sadar,César Soto,Match Report,,111735845425841
+4,Sun,2025-09-14,21:00,Barcelona,6–0,Valencia,5862,Estadi Johan Cruyff,Guillermo Cuadra,Match Report,,281427038041694
+4,Mon,2025-09-15,21:00,Espanyol,3–2,Mallorca,26082,RCDE Stadium,Alejandro Hernández,Match Report,,75103862774118
+5,Fri,2025-09-19,21:00,Real Betis,3–1,Real Sociedad,59773,Estadio La Cartuja de Sevilla,Mateo Busquets,Match Report,,212749074187723
+5,Sat,2025-09-20,14:00,Girona,0–4,Levante,11048,Estadi Municipal de Montilivi,Alejandro Quintero,Match Report,,168234328340413
+5,Sat,2025-09-20,16:15,Real Madrid,2–0,Espanyol,73466,Estadio Santiago Bernabéu,Juan Martínez,Match Report,,203618710096598
+5,Sat,2025-09-20,18:30,Alavés,1–2,Sevilla,17525,Estadio de Mendizorroza,Iosu Galech,Match Report,,130082495996559
+5,Sat,2025-09-20,18:30,Villarreal,2–1,Osasuna,17542,Estadio de la Cerámica,Isidro Díaz de Mera,Match Report,,133094675349419
+5,Sat,2025-09-20,21:00,Valencia,2–0,Athletic Club,46004,Estadio de Mestalla,Miguel Ángel Ortiz Arias,Match Report,,43946787856038
+5,Sun,2025-09-21,14:00,Rayo Vallecano,1–1,Celta Vigo,13028,Campo de Fútbol de Vallecas,Víctor García,Match Report,,7395887435372
+5,Sun,2025-09-21,16:15,Mallorca,1–1,Atlético Madrid,21027,Estadi Mallorca Son Moix,Francisco Hernández,Match Report,,30693583959196
+5,Sun,2025-09-21,18:30,Elche,1–0,Oviedo,27235,Estadio Manuel Martínez Valero,Miguel Sesma,Match Report,,127405226125507
+5,Sun,2025-09-21,21:00,Barcelona,3–0,Getafe,5711,Estadi Johan Cruyff,Ricardo de Burgos,Match Report,,55410058921308
+6,Tue,2025-09-23,19:00,Espanyol,2–2,Valencia,26802,RCDE Stadium,José Guzmán,Match Report,,183229468392266
+6,Tue,2025-09-23,19:00,Athletic Club,1–1,Girona,45739,San Mamés,José Luis Munuera,Match Report,,275277792510298
+6,Tue,2025-09-23,21:30,Levante,1–4,Real Madrid,23361,Estadio Ciudad de Valencia,Isidro Díaz de Mera,Match Report,,266130006587319
+6,Tue,2025-09-23,21:30,Sevilla,1–2,Villarreal,38145,Estadio Ramón Sánchez Pizjuán,César Soto,Match Report,,186679647772313
+6,Wed,2025-09-24,19:00,Getafe,1–1,Alavés,8005,Coliseum Alfonso Pérez,Alejandro Quintero,Match Report,,67613765501946
+6,Wed,2025-09-24,21:30,Atlético Madrid,3–2,Rayo Vallecano,54098,Riyadh Air Metropolitan Stadium,Alejandro Hernández,Match Report,,117984295432745
+6,Wed,2025-09-24,21:30,Real Sociedad,1–0,Mallorca,22442,Reale Arena,Iosu Galech,Match Report,,236927472265011
+6,Thu,2025-09-25,19:30,Osasuna,1–1,Elche,19475,Estadio El Sadar,Adrián Cordero,Match Report,,125464082459181
+6,Thu,2025-09-25,21:30,Oviedo,1–3,Barcelona,29850,Estadio Nuevo Carlos Tartiere,Miguel Ángel Ortiz Arias,Match Report,,181953479192697
+7,Fri,2025-09-26,21:00,Girona,0–0,Espanyol,11488,Estadi Municipal de Montilivi,Francisco Hernández,Match Report,,144047014190753
+7,Sat,2025-09-27,14:00,Getafe,1–1,Levante,7749,Coliseum Alfonso Pérez,Mateo Busquets,Match Report,,242013668070201
+7,Sat,2025-09-27,16:15,Atlético Madrid,5–2,Real Madrid,69167,Riyadh Air Metropolitan Stadium,Javier Alberola,Match Report,,127177046823476
+7,Sat,2025-09-27,18:30,Mallorca,1–0,Alavés,16275,Estadi Mallorca Son Moix,Adrián Cordero,Match Report,,175204441885868
+7,Sat,2025-09-27,21:00,Villarreal,1–0,Athletic Club,18908,Estadio de la Cerámica,Miguel Sesma,Match Report,,46084056047093
+7,Sun,2025-09-28,14:00,Rayo Vallecano,0–1,Sevilla,13080,Campo de Fútbol de Vallecas,Jesús Gil,Match Report,,90424437776635
+7,Sun,2025-09-28,16:15,Elche,2–1,Celta Vigo,26708,Estadio Manuel Martínez Valero,Guillermo Cuadra,Match Report,,280316716603656
+7,Sun,2025-09-28,18:30,Barcelona,2–1,Real Sociedad,50103,Estadi Olímpic Lluís Companys,Alejandro Hernández,Match Report,,107894924367110
+7,Sun,2025-09-28,21:00,Real Betis,2–0,Osasuna,50034,Estadio La Cartuja de Sevilla,Víctor García,Match Report,,191037104569540
+7,Tue,2025-09-30,20:00,Valencia,1–2,Oviedo,40364,Estadio de Mestalla,Ricardo de Burgos,Match Report,,136755605360882
+8,Fri,2025-10-03,21:00,Osasuna,2–1,Getafe,19895,Estadio El Sadar,Javier Alberola,Match Report,,149529704628947
+8,Sat,2025-10-04,14:00,Oviedo,0–2,Levante,23878,Estadio Nuevo Carlos Tartiere,José Luis Munuera,Match Report,,39518732591537
+8,Sat,2025-10-04,16:15,Girona,2–1,Valencia,10867,Estadi Municipal de Montilivi,Isidro Díaz de Mera,Match Report,,125648939033193
+8,Sat,2025-10-04,18:30,Athletic Club,2–1,Mallorca,47098,San Mamés,Alejandro Quintero,Match Report,,43788885623702
+8,Sat,2025-10-04,21:00,Real Madrid,3–1,Villarreal,75216,Estadio Santiago Bernabéu,Guillermo Cuadra,Match Report,,225843569246768
+8,Sun,2025-10-05,14:00,Alavés,3–1,Elche,16203,Estadio de Mendizorroza,Miguel Ángel Ortiz Arias,Match Report,,125712383575680
+8,Sun,2025-10-05,16:15,Sevilla,4–1,Barcelona,41040,Estadio Ramón Sánchez Pizjuán,Alejandro Muñíz,Match Report,,70990788457885
+8,Sun,2025-10-05,18:30,Espanyol,1–2,Real Betis,32778,RCDE Stadium,Iosu Galech,Match Report,,115383552720083
+8,Sun,2025-10-05,18:30,Real Sociedad,0–1,Rayo Vallecano,31189,Reale Arena,José Guzmán,Match Report,,218211205609476
+8,Sun,2025-10-05,21:00,Celta Vigo,1–1,Atlético Madrid,20877,Estadio Abanca Balaídos,César Soto,Match Report,,161406442093837
+9,Fri,2025-10-17,21:00,Oviedo,0–2,Espanyol,25625,Estadio Nuevo Carlos Tartiere,Mateo Busquets,Match Report,,121752485147317
+9,Sat,2025-10-18,14:00,Sevilla,1–3,Mallorca,37008,Estadio Ramón Sánchez Pizjuán,Víctor García,Match Report,,113189581016765
+9,Sat,2025-10-18,16:15,Barcelona,2–1,Girona,43172,Estadi Olímpic Lluís Companys,Jesús Gil,Match Report,,205022729024640
+9,Sat,2025-10-18,18:30,Villarreal,2–2,Real Betis,19238,Estadio de la Cerámica,Francisco Hernández,Match Report,,43123034282656
+9,Sat,2025-10-18,21:00,Atlético Madrid,1–0,Osasuna,62884,Riyadh Air Metropolitan Stadium,Ricardo de Burgos,Match Report,,97542611844075
+9,Sun,2025-10-19,14:00,Elche,0–0,Athletic Club,29043,Estadio Manuel Martínez Valero,José Guzmán,Match Report,,100012646648395
+9,Sun,2025-10-19,16:15,Celta Vigo,1–1,Real Sociedad,19102,Estadio Abanca Balaídos,Juan Martínez,Match Report,,122694556029353
+9,Sun,2025-10-19,18:30,Levante,0–3,Rayo Vallecano,20312,Estadio Ciudad de Valencia,Miguel Sesma,Match Report,,163343429060959
+9,Sun,2025-10-19,21:00,Getafe,0–1,Real Madrid,10090,Coliseum Alfonso Pérez,José Luis Munuera,Match Report,,15045513827979
+9,Mon,2025-10-20,21:00,Alavés,0–0,Valencia,15564,Estadio de Mendizorroza,Iosu Galech,Match Report,,87432229548299
+10,Fri,2025-10-24,21:00,Real Sociedad,2–1,Sevilla,30965,Reale Arena,Adrián Cordero,Match Report,,5032611259275
+10,Sat,2025-10-25,14:00,Girona,3–3,Oviedo,11120,Estadi Municipal de Montilivi,Alejandro Muñíz,Match Report,,125986801044396
+10,Sat,2025-10-25,16:15,Espanyol,1–0,Elche,30820,RCDE Stadium,Ricardo de Burgos,Match Report,,217617549854870
+10,Sat,2025-10-25,18:30,Athletic Club,0–1,Getafe,47749,San Mamés,Isidro Díaz de Mera,Match Report,,240235579276521
+10,Sat,2025-10-25,21:00,Valencia,0–2,Villarreal,45560,Estadio de Mestalla,Javier Alberola,Match Report,,211188047924725
+10,Sun,2025-10-26,14:00,Mallorca,1–1,Levante,12964,Estadi Mallorca Son Moix,Miguel Ángel Ortiz Arias,Match Report,,266459115822441
+10,Sun,2025-10-26,16:15,Real Madrid,2–1,Barcelona,78107,Estadio Santiago Bernabéu,César Soto,Match Report,,192094415737604
+10,Sun,2025-10-26,18:30,Osasuna,2–3,Celta Vigo,20065,Estadio El Sadar,Alejandro Hernández,Match Report,,70416217227440
+10,Sun,2025-10-26,21:00,Rayo Vallecano,1–0,Alavés,11734,Campo de Fútbol de Vallecas,Víctor García,Match Report,,99147758124915
+10,Mon,2025-10-27,21:00,Real Betis,0–2,Atlético Madrid,57537,Estadio La Cartuja de Sevilla,Juan Martínez,Match Report,,279595461165615
+11,Fri,2025-10-31,21:00,Getafe,2–1,Girona,7223,Coliseum Alfonso Pérez,Jose Maria Sánchez,Match Report,,26143173390922
+11,Sat,2025-11-01,14:00,Villarreal,4–0,Rayo Vallecano,17022,Estadio de la Cerámica,Iosu Galech,Match Report,,57267236260772
+11,Sat,2025-11-01,16:15,Atlético Madrid,3–0,Sevilla,66119,Riyadh Air Metropolitan Stadium,Francisco Hernández,Match Report,,215273675829103
+11,Sat,2025-11-01,18:30,Real Sociedad,3–2,Athletic Club,37685,Reale Arena,José Luis Munuera,Match Report,,128059159303519
+11,Sat,2025-11-01,21:00,Real Madrid,4–0,Valencia,74796,Estadio Santiago Bernabéu,Mateo Busquets,Match Report,,260045177303107
+11,Sun,2025-11-02,14:00,Levante,1–2,Celta Vigo,19513,Estadio Ciudad de Valencia,Alejandro Quintero,Match Report,,225474460646579
+11,Sun,2025-11-02,16:15,Alavés,2–1,Espanyol,17149,Estadio de Mendizorroza,Guillermo Cuadra,Match Report,,71552518573511
+11,Sun,2025-11-02,18:30,Barcelona,3–1,Elche,44370,Estadi Olímpic Lluís Companys,Miguel Sesma,Match Report,,120962390888885
+11,Sun,2025-11-02,21:00,Real Betis,3–0,Mallorca,54747,Estadio La Cartuja de Sevilla,Jesús Gil,Match Report,,16354935909941
+11,Mon,2025-11-03,21:00,Oviedo,0–0,Osasuna,23795,Estadio Nuevo Carlos Tartiere,José Guzmán,Match Report,,108080026272328
+12,Fri,2025-11-07,21:00,Elche,1–1,Real Sociedad,26242,Estadio Manuel Martínez Valero,Isidro Díaz de Mera,Match Report,,86930806509335
+12,Sat,2025-11-08,14:00,Girona,1–0,Alavés,10050,Estadi Municipal de Montilivi,Adrián Cordero,Match Report,,276761382324566
+12,Sat,2025-11-08,16:15,Sevilla,1–0,Osasuna,35169,Estadio Ramón Sánchez Pizjuán,Miguel Ángel Ortiz Arias,Match Report,,120392036606919
+12,Sat,2025-11-08,18:30,Atlético Madrid,3–1,Levante,60119,Riyadh Air Metropolitan Stadium,Jesús Gil,Match Report,,144025450835022
+12,Sat,2025-11-08,21:00,Espanyol,0–2,Villarreal,29540,RCDE Stadium,Alejandro Hernández,Match Report,,49912487743273
+12,Sun,2025-11-09,14:00,Athletic Club,1–0,Oviedo,47209,San Mamés,César Soto,Match Report,,102381573900005
+12,Sun,2025-11-09,16:15,Rayo Vallecano,0–0,Real Madrid,14468,Campo de Fútbol de Vallecas,Juan Martínez,Match Report,,14363514735660
+12,Sun,2025-11-09,18:30,Mallorca,1–0,Getafe,17507,Estadi Mallorca Son Moix,Ricardo de Burgos,Match Report,,171498132861949
+12,Sun,2025-11-09,18:30,Valencia,1–1,Real Betis,45820,Estadio de Mestalla,Víctor García,Match Report,,71824464063421
+12,Sun,2025-11-09,21:00,Celta Vigo,2–4,Barcelona,21887,Estadio Abanca Balaídos,Javier Alberola,Match Report,,112411683314944
+13,Fri,2025-11-21,21:00,Valencia,1–0,Levante,46302,Estadio de Mestalla,Alejandro Muñíz,Match Report,,6362656669454
+13,Sat,2025-11-22,14:00,Alavés,0–1,Celta Vigo,16582,Estadio de Mendizorroza,Juan Martínez,Match Report,,184983825241068
+13,Sat,2025-11-22,16:15,Barcelona,4–0,Athletic Club,45157,Spotify Camp Nou,Jose Maria Sánchez,Match Report,,149440693544582
+13,Sat,2025-11-22,18:30,Osasuna,1–3,Real Sociedad,21377,Estadio El Sadar,Mateo Busquets,Match Report,,42506875124295
+13,Sat,2025-11-22,21:00,Villarreal,2–1,Mallorca,16854,Estadio de la Cerámica,José Guzmán,Match Report,,141493924351016
+13,Sun,2025-11-23,14:00,Oviedo,0–0,Rayo Vallecano,23684,Estadio Nuevo Carlos Tartiere,Alejandro Quintero,Match Report,,240600018970803
+13,Sun,2025-11-23,16:15,Real Betis,1–1,Girona,64268,Estadio La Cartuja de Sevilla,Iosu Galech,Match Report,,243786207784554
+13,Sun,2025-11-23,18:30,Getafe,0–1,Atlético Madrid,9783,Coliseum Alfonso Pérez,Guillermo Cuadra,Match Report,,19529544917174
+13,Sun,2025-11-23,21:00,Elche,2–2,Real Madrid,31024,Estadio Manuel Martínez Valero,Francisco Hernández,Match Report,,167073112899369
+13,Mon,2025-11-24,21:00,Espanyol,2–1,Sevilla,25166,RCDE Stadium,Miguel Sesma,Match Report,,24440480462873
+14,Fri,2025-11-28,21:00,Getafe,1–0,Elche,7697,Coliseum Alfonso Pérez,Alejandro Hernández,Match Report,,246618020730085
+14,Sat,2025-11-29,14:00,Mallorca,2–2,Osasuna,15457,Estadi Mallorca Son Moix,Jesús Gil,Match Report,,188728039961764
+14,Sat,2025-11-29,16:15,Barcelona,3–1,Alavés,44834,Spotify Camp Nou,Miguel Ángel Ortiz Arias,Match Report,,36398422825622
+14,Sat,2025-11-29,18:30,Levante,0–2,Athletic Club,19848,Estadio Ciudad de Valencia,Adrián Cordero,Match Report,,137057036007683
+14,Sat,2025-11-29,21:00,Atlético Madrid,2–0,Oviedo,61305,Riyadh Air Metropolitan Stadium,Víctor Acosta,Match Report,,207872139391536
+14,Sun,2025-11-30,14:00,Real Sociedad,2–3,Villarreal,30140,Reale Arena,César Soto,Match Report,,189167058479105
+14,Sun,2025-11-30,16:15,Sevilla,0–2,Real Betis,42580,Estadio Ramón Sánchez Pizjuán,José Luis Munuera,Match Report,,251107807545272
+14,Sun,2025-11-30,18:30,Celta Vigo,0–1,Espanyol,20031,Estadio Abanca Balaídos,Isidro Díaz de Mera,Match Report,,125140908145739
+14,Sun,2025-11-30,21:00,Girona,1–1,Real Madrid,14005,Estadi Municipal de Montilivi,Ricardo de Burgos,Match Report,,13210013621380
+14,Mon,2025-12-01,21:00,Rayo Vallecano,1–1,Valencia,11267,Campo de Fútbol de Vallecas,Javier Alberola,Match Report,,272335952982555
+19,Tue,2025-12-02,21:00,Barcelona,3–1,Atlético Madrid,45205,Spotify Camp Nou,Ricardo de Burgos,Match Report,,1350566588958
+19,Wed,2025-12-03,19:00,Athletic Club,0–3,Real Madrid,51313,San Mamés,Jesús Gil,Match Report,,57962715965650
+15,Fri,2025-12-05,21:00,Oviedo,0–0,Mallorca,23333,Estadio Nuevo Carlos Tartiere,Iosu Galech,Match Report,,183333492791392
+15,Sat,2025-12-06,14:00,Villarreal,2–0,Getafe,17089,Estadio de la Cerámica,Mateo Busquets,Match Report,,176082216387051
+15,Sat,2025-12-06,16:15,Alavés,1–0,Real Sociedad,18132,Estadio de Mendizorroza,Javier Alberola,Match Report,,167585334666101
+15,Sat,2025-12-06,18:30,Real Betis,3–5,Barcelona,64562,Estadio La Cartuja de Sevilla,Francisco Hernández,Match Report,,217440347695720
+15,Sat,2025-12-06,21:00,Athletic Club,1–0,Atlético Madrid,48904,San Mamés,Alejandro Muñíz,Match Report,,73071948011060
+15,Sun,2025-12-07,14:00,Elche,3–0,Girona,23374,Estadio Manuel Martínez Valero,Miguel Sesma,Match Report,,180603293315389
+15,Sun,2025-12-07,16:15,Valencia,1–1,Sevilla,44369,Estadio de Mestalla,Guillermo Cuadra,Match Report,,2981099111893
+15,Sun,2025-12-07,18:30,Espanyol,1–0,Rayo Vallecano,28110,RCDE Stadium,Jose Maria Sánchez,Match Report,,226253330782479
+15,Sun,2025-12-07,21:00,Real Madrid,0–2,Celta Vigo,74511,Estadio Santiago Bernabéu,Alejandro Quintero,Match Report,,248180254415866
+15,Mon,2025-12-08,21:00,Osasuna,2–0,Levante,18160,Estadio El Sadar,José Guzmán,Match Report,,271746510263835
+16,Fri,2025-12-12,21:00,Real Sociedad,1–2,Girona,26122,Reale Arena,Miguel Ángel Ortiz Arias,Match Report,,22708260528459
+16,Sat,2025-12-13,14:00,Atlético Madrid,2–1,Valencia,61011,Riyadh Air Metropolitan Stadium,César Soto,Match Report,,42666257678967
+16,Sat,2025-12-13,16:15,Mallorca,3–1,Elche,16199,Estadi Mallorca Son Moix,José Luis Munuera,Match Report,,239227505105338
+16,Sat,2025-12-13,18:30,Barcelona,2–0,Osasuna,42058,Spotify Camp Nou,Adrián Cordero,Match Report,,132554873973078
+16,Sat,2025-12-13,21:00,Getafe,0–1,Espanyol,7443,Coliseum Alfonso Pérez,Jesús Gil,Match Report,,176960838690839
+16,Sun,2025-12-14,14:00,Sevilla,4–0,Oviedo,32885,Estadio Ramón Sánchez Pizjuán,Isidro Díaz de Mera,Match Report,,39897857430038
+16,Sun,2025-12-14,16:15,Celta Vigo,2–0,Athletic Club,20505,Estadio Abanca Balaídos,Alejandro Hernández,Match Report,,279785200613578
+16,Sun,2025-12-14,21:00,Alavés,1–2,Real Madrid,19290,Estadio de Mendizorroza,Víctor García,Match Report,,245703247296334
+16,Mon,2025-12-15,21:00,Rayo Vallecano,0–0,Real Betis,11489,Campo de Fútbol de Vallecas,Ricardo de Burgos,Match Report,,166177493963192
+17,Fri,2025-12-19,21:00,Valencia,1–1,Mallorca,41179,Estadio de Mestalla,Alejandro Quintero,Match Report,,192878076068502
+17,Sat,2025-12-20,14:00,Oviedo,0–0,Celta Vigo,23613,Estadio Nuevo Carlos Tartiere,Francisco Hernández,Match Report,,74680842636688
+17,Sat,2025-12-20,16:15,Levante,1–1,Real Sociedad,17346,Estadio Ciudad de Valencia,Guillermo Cuadra,Match Report,,69120326331271
+17,Sat,2025-12-20,18:30,Osasuna,3–0,Alavés,20408,Estadio El Sadar,César Soto,Match Report,,133721547304901
+17,Sat,2025-12-20,21:00,Real Madrid,2–0,Sevilla,72062,Estadio Santiago Bernabéu,Alejandro Muñíz,Match Report,,27391270321084
+17,Sun,2025-12-21,14:00,Girona,0–3,Atlético Madrid,12363,Estadi Municipal de Montilivi,José Guzmán,Match Report,,152078070885886
+17,Sun,2025-12-21,16:15,Villarreal,0–2,Barcelona,20701,Estadio de la Cerámica,Javier Alberola,Match Report,,218009564880358
+17,Sun,2025-12-21,18:30,Elche,4–0,Rayo Vallecano,23765,Estadio Manuel Martínez Valero,Adrián Cordero,Match Report,,36014485551528
+17,Sun,2025-12-21,21:00,Real Betis,4–0,Getafe,54365,Estadio La Cartuja de Sevilla,Miguel Sesma,Match Report,,189983524250623
+17,Mon,2025-12-22,21:00,Athletic Club,1–2,Espanyol,47856,San Mamés,Mateo Busquets,Match Report,,77248874686176
+18,Fri,2026-01-02,21:00,Rayo Vallecano,1–1,Getafe,12544,Campo de Fútbol de Vallecas,Miguel Ángel Ortiz Arias,Match Report,,246802500144824
+18,Sat,2026-01-03,14:00,Celta Vigo,4–1,Valencia,20475,Estadio Abanca Balaídos,Ricardo de Burgos,Match Report,,80106586136167
+18,Sat,2026-01-03,16:15,Osasuna,1–1,Athletic Club,22010,Estadio El Sadar,José Luis Munuera,Match Report,,262558802025525
+18,Sat,2026-01-03,18:30,Elche,1–3,Villarreal,27078,Estadio Manuel Martínez Valero,Isidro Díaz de Mera,Match Report,,42089493261609
+18,Sat,2026-01-03,21:00,Espanyol,0–2,Barcelona,36283,RCDE Stadium,Víctor García,Match Report,,5927245218557
+18,Sun,2026-01-04,14:00,Sevilla,0–3,Levante,25303,Estadio Ramón Sánchez Pizjuán,Iosu Galech,Match Report,,22651788528907
+18,Sun,2026-01-04,16:15,Real Madrid,5–1,Real Betis,75190,Estadio Santiago Bernabéu,Alejandro Hernández,Match Report,,73838000687415
+18,Sun,2026-01-04,18:30,Mallorca,1–2,Girona,16011,Estadi Mallorca Son Moix,Javier Alberola,Match Report,,85885216035168
+18,Sun,2026-01-04,18:30,Alavés,1–1,Oviedo,17345,Estadio de Mendizorroza,Jesús Gil,Match Report,,271983229253589
+18,Sun,2026-01-04,21:00,Real Sociedad,1–1,Atlético Madrid,31576,Reale Arena,Juan Martínez,Match Report,,217927695836100
+19,Fri,2026-01-09,21:00,Getafe,1–2,Real Sociedad,7497,Coliseum Alfonso Pérez,Francisco Hernández,Match Report,,7319209009324
+19,Sat,2026-01-10,14:00,Oviedo,1–1,Real Betis,25549,Estadio Nuevo Carlos Tartiere,Guillermo Cuadra,Match Report,,27836622027224
+19,Sat,2026-01-10,16:15,Villarreal,3–1,Alavés,17011,Estadio de la Cerámica,Alejandro Muñíz,Match Report,,134879013270729
+19,Sat,2026-01-10,18:30,Girona,1–0,Osasuna,12059,Estadi Municipal de Montilivi,Alejandro Hernández,Match Report,,146753782725831
+19,Sat,2026-01-10,21:00,Valencia,1–1,Elche,44949,Estadio de Mestalla,Miguel Ángel Ortiz Arias,Match Report,,174114872050505
+19,Sun,2026-01-11,14:00,Rayo Vallecano,2–1,Mallorca,12223,Campo de Fútbol de Vallecas,Juan Martínez,Match Report,,17797721164414
+19,Sun,2026-01-11,16:15,Levante,1–1,Espanyol,20501,Estadio Ciudad de Valencia,César Soto,Match Report,,195067591372973
+19,Mon,2026-01-12,21:00,Sevilla,0–1,Celta Vigo,31383,Estadio Ramón Sánchez Pizjuán,Jose Maria Sánchez,Match Report,,57154172260964
+20,Fri,2026-01-16,21:00,Espanyol,0–2,Girona,28451,RCDE Stadium,Iosu Galech,Match Report,,97513167405980
+20,Sat,2026-01-17,14:00,Real Madrid,2–0,Levante,70104,Estadio Santiago Bernabéu,Miguel Sesma,Match Report,,120639064914438
+20,Sat,2026-01-17,16:15,Mallorca,3–2,Athletic Club,14284,Estadi Mallorca Son Moix,José Guzmán,Match Report,,100507923486561
+20,Sat,2026-01-17,18:30,Osasuna,3–2,Oviedo,20651,Estadio El Sadar,Alejandro Quintero,Match Report,,241289403551744
+20,Sat,2026-01-17,21:00,Real Betis,2–0,Villarreal,60138,Estadio La Cartuja de Sevilla,Víctor García,Match Report,,140509386351702
+20,Sun,2026-01-18,14:00,Getafe,0–1,Valencia,8361,Coliseum Alfonso Pérez,Isidro Díaz de Mera,Match Report,,49981878868916
+20,Sun,2026-01-18,16:15,Atlético Madrid,1–0,Alavés,61192,Riyadh Air Metropolitan Stadium,Guillermo Cuadra,Match Report,,114188927341603
+20,Sun,2026-01-18,18:30,Celta Vigo,3–0,Rayo Vallecano,20835,Estadio Abanca Balaídos,Mateo Busquets,Match Report,,151807189121311
+20,Sun,2026-01-18,21:00,Real Sociedad,2–1,Barcelona,36346,Reale Arena,Jesús Gil,Match Report,,229214180995221
+20,Mon,2026-01-19,21:00,Elche,2–2,Sevilla,22594,Estadio Manuel Martínez Valero,Ricardo de Burgos,Match Report,,265862638998493
+21,Fri,2026-01-23,21:00,Levante,3–2,Elche,18973,Estadio Ciudad de Valencia,José Luis Munuera,Match Report,,122764594323375
+21,Sat,2026-01-24,14:00,Rayo Vallecano,1–3,Osasuna,12091,Campo de Fútbol de Vallecas,Miguel Sesma,Match Report,,249209640712975
+21,Sat,2026-01-24,16:15,Valencia,3–2,Espanyol,44163,Estadio de Mestalla,Alejandro Hernández,Match Report,,266097448106403
+21,Sat,2026-01-24,18:30,Sevilla,2–1,Athletic Club,34642,Estadio Ramón Sánchez Pizjuán,Francisco Hernández,Match Report,,59934689754353
+21,Sat,2026-01-24,21:00,Villarreal,0–2,Real Madrid,20432,Estadio de la Cerámica,César Soto,Match Report,,1723534310882
+21,Sun,2026-01-25,14:00,Atlético Madrid,3–0,Mallorca,55028,Riyadh Air Metropolitan Stadium,Jose Maria Sánchez,Match Report,,87936432211056
+21,Sun,2026-01-25,16:15,Barcelona,3–0,Oviedo,44763,Spotify Camp Nou,Juan Martínez,Match Report,,80696913913348
+21,Sun,2026-01-25,18:30,Real Sociedad,3–1,Celta Vigo,29682,Reale Arena,Javier Alberola,Match Report,,267070128393503
+21,Sun,2026-01-25,21:00,Alavés,2–1,Real Betis,14810,Estadio de Mendizorroza,Miguel Ángel Ortiz Arias,Match Report,,212324418555205
+21,Mon,2026-01-26,21:00,Girona,1–1,Getafe,11388,Estadi Municipal de Montilivi,Alejandro Quintero,Match Report,,249170157109194
+22,Fri,2026-01-30,21:00,Espanyol,1–2,Alavés,25881,RCDE Stadium,Miguel Sesma,Match Report,,211830410333780
+22,Sat,2026-01-31,14:00,Oviedo,1–0,Girona,25085,Estadio Nuevo Carlos Tartiere,Javier Alberola,Match Report,,97738189384961
+22,Sat,2026-01-31,16:15,Osasuna,2–2,Villarreal,20455,Estadio El Sadar,Ricardo de Burgos,Match Report,,88196758283503
+22,Sat,2026-01-31,18:30,Levante,0–0,Atlético Madrid,20573,Estadio Ciudad de Valencia,Víctor García,Match Report,,213655822347260
+22,Sat,2026-01-31,21:00,Elche,1–3,Barcelona,31233,Estadio Manuel Martínez Valero,Alejandro Muñíz,Match Report,,233084514322073
+22,Sun,2026-02-01,14:00,Real Madrid,2–1,Rayo Vallecano,71051,Estadio Santiago Bernabéu,Isidro Díaz de Mera,Match Report,,103873934296763
+22,Sun,2026-02-01,16:15,Real Betis,2–1,Valencia,57523,Estadio La Cartuja de Sevilla,Jose Maria Sánchez,Match Report,,134449565887025
+22,Sun,2026-02-01,18:30,Getafe,0–0,Celta Vigo,7363,Coliseum Alfonso Pérez,Iosu Galech,Match Report,,99010512310485
+22,Sun,2026-02-01,21:00,Athletic Club,1–1,Real Sociedad,48020,San Mamés,Guillermo Cuadra,Match Report,,1981896096722
+22,Mon,2026-02-02,21:00,Mallorca,4–1,Sevilla,15621,Estadi Mallorca Son Moix,César Soto,Match Report,,71726453882620
+23,Fri,2026-02-06,21:00,Celta Vigo,1–2,Osasuna,18705,Estadio Abanca Balaídos,José Luis Munuera,Match Report,,58845994898066
+23,Sat,2026-02-07,14:00,Rayo Vallecano,,Oviedo,,Campo de Fútbol de Vallecas,Alejandro Hernández,,Match Postponed,168901050427976
+23,Sat,2026-02-07,16:15,Barcelona,3–0,Mallorca,44301,Spotify Camp Nou,Alejandro Quintero,Match Report,,123845363308532
+23,Sat,2026-02-07,21:00,Real Sociedad,3–1,Elche,30187,Reale Arena,José Guzmán,Match Report,,31635900754577
+23,Sun,2026-02-08,14:00,Alavés,0–2,Getafe,15960,Estadio de Mendizorroza,Juan Martínez,Match Report,,96380130563499
+23,Sun,2026-02-08,16:15,Athletic Club,4–2,Levante,46487,San Mamés,Alejandro Muñíz,Match Report,,37099678724814
+23,Sun,2026-02-08,16:15,Sevilla,1–1,Girona,30384,Estadio Ramón Sánchez Pizjuán,Jesús Gil,Match Report,,249165185143039
+23,Sun,2026-02-08,18:30,Atlético Madrid,0–1,Real Betis,65210,Riyadh Air Metropolitan Stadium,Mateo Busquets,Match Report,,238364193930544
+23,Sun,2026-02-08,21:00,Valencia,0–2,Real Madrid,47515,Estadio de Mestalla,Javier Alberola,Match Report,,224127150371417
+23,Mon,2026-02-09,21:00,Villarreal,4–1,Espanyol,16825,Estadio de la Cerámica,Adrián Cordero,Match Report,,182653505299194
+24,Fri,2026-02-13,21:00,Elche,,Osasuna,,Estadio Manuel Martínez Valero,,Head-to-Head,,78424921640283
+24,Sat,2026-02-14,14:00,Espanyol,,Celta Vigo,,RCDE Stadium,,Head-to-Head,,166431566720497
+24,Sat,2026-02-14,16:15,Getafe,,Villarreal,,Coliseum Alfonso Pérez,,Head-to-Head,,36599477633161
+24,Sat,2026-02-14,18:30,Sevilla,,Alavés,,Estadio Ramón Sánchez Pizjuán,,Head-to-Head,,266196119130298
+24,Sat,2026-02-14,21:00,Real Madrid,,Real Sociedad,,Estadio Santiago Bernabéu,,Head-to-Head,,12867779076770
+24,Sun,2026-02-15,14:00,Oviedo,,Athletic Club,,Estadio Nuevo Carlos Tartiere,,Head-to-Head,,111769967402787
+24,Sun,2026-02-15,16:15,Rayo Vallecano,,Atlético Madrid,,Campo de Fútbol de Vallecas,,Head-to-Head,,268893201650669
+24,Sun,2026-02-15,18:30,Levante,,Valencia,,Estadio Ciudad de Valencia,,Head-to-Head,,273186728740917
+24,Sun,2026-02-15,21:00,Mallorca,,Real Betis,,Estadi Mallorca Son Moix,,Head-to-Head,,190479901032667
+24,Mon,2026-02-16,21:00,Girona,,Barcelona,,Estadi Municipal de Montilivi,,Head-to-Head,,160427239486660
+16,Wed,2026-02-18,20:00,Levante,,Villarreal,,Estadio Ciudad de Valencia,,Head-to-Head,,84850950041839
+25,Fri,2026-02-20,21:00,Athletic Club,,Elche,,San Mamés,,Head-to-Head,,270984011137131
+25,Sat,2026-02-21,14:00,Real Sociedad,,Oviedo,,Reale Arena,,Head-to-Head,,255788369173767
+25,Sat,2026-02-21,16:15,Real Betis,,Rayo Vallecano,,Estadio La Cartuja de Sevilla,,Head-to-Head,,28794525136163
+25,Sat,2026-02-21,18:30,Osasuna,,Real Madrid,,Estadio El Sadar,,Head-to-Head,,72800338160640
+25,Sat,2026-02-21,21:00,Atlético Madrid,,Espanyol,,Riyadh Air Metropolitan Stadium,,Head-to-Head,,116829091866764
+25,Sun,2026-02-22,14:00,Getafe,,Sevilla,,Coliseum Alfonso Pérez,,Head-to-Head,,66654495877016
+25,Sun,2026-02-22,16:15,Barcelona,,Levante,,Spotify Camp Nou,,Head-to-Head,,127323012802056
+25,Sun,2026-02-22,18:30,Celta Vigo,,Mallorca,,Estadio Abanca Balaídos,,Head-to-Head,,12440203075382
+25,Sun,2026-02-22,21:00,Villarreal,,Valencia,,Estadio de la Cerámica,,Head-to-Head,,210159732743020
+25,Mon,2026-02-23,21:00,Alavés,,Girona,,Estadio de Mendizorroza,,Head-to-Head,,224114049373676
+26,Fri,2026-02-27,21:00,Levante,,Alavés,,Estadio Ciudad de Valencia,,Head-to-Head,,187886877864296
+26,Sat,2026-02-28,14:00,Rayo Vallecano,,Athletic Club,,Campo de Fútbol de Vallecas,,Head-to-Head,,154236394582768
+26,Sat,2026-02-28,16:15,Barcelona,,Villarreal,,Spotify Camp Nou,,Head-to-Head,,37449815710147
+26,Sat,2026-02-28,18:30,Mallorca,,Real Sociedad,,Estadi Mallorca Son Moix,,Head-to-Head,,74389292712047
+26,Sat,2026-02-28,21:00,Oviedo,,Atlético Madrid,,Estadio Nuevo Carlos Tartiere,,Head-to-Head,,100315965680739
+26,Sun,2026-03-01,14:00,Elche,,Espanyol,,Estadio Manuel Martínez Valero,,Head-to-Head,,94688163415669
+26,Sun,2026-03-01,16:15,Valencia,,Osasuna,,Estadio de Mestalla,,Head-to-Head,,279574308777710
+26,Sun,2026-03-01,18:30,Real Betis,,Sevilla,,Estadio La Cartuja de Sevilla,,Head-to-Head,,280828769352415
+26,Sun,2026-03-01,21:00,Girona,,Celta Vigo,,Estadi Municipal de Montilivi,,Head-to-Head,,1233247401528
+26,Mon,2026-03-02,21:00,Real Madrid,,Getafe,,Estadio Santiago Bernabéu,,Head-to-Head,,60340945625436
+27,Sun,2026-03-08,,Valencia,,Alavés,,Estadio de Mestalla,,Head-to-Head,,236257366529703
+27,Sun,2026-03-08,,Sevilla,,Rayo Vallecano,,Estadio Ramón Sánchez Pizjuán,,Head-to-Head,,276590001159030
+27,Sun,2026-03-08,,Celta Vigo,,Real Madrid,,Estadio Abanca Balaídos,,Head-to-Head,,37895991803486
+27,Sun,2026-03-08,,Getafe,,Real Betis,,Coliseum Alfonso Pérez,,Head-to-Head,,111504600670808
+27,Sun,2026-03-08,,Osasuna,,Mallorca,,Estadio El Sadar,,Head-to-Head,,90275468718561
+27,Sun,2026-03-08,,Espanyol,,Oviedo,,RCDE Stadium,,Head-to-Head,,242946556925422
+27,Sun,2026-03-08,,Athletic Club,,Barcelona,,San Mamés,,Head-to-Head,,264352069617307
+27,Sun,2026-03-08,,Levante,,Girona,,Estadio Ciudad de Valencia,,Head-to-Head,,82493867004847
+27,Sun,2026-03-08,,Atlético Madrid,,Real Sociedad,,Riyadh Air Metropolitan Stadium,,Head-to-Head,,137901225996070
+27,Sun,2026-03-08,,Villarreal,,Elche,,Estadio de la Cerámica,,Head-to-Head,,73358037351495
+28,Sun,2026-03-15,,Barcelona,,Sevilla,,Spotify Camp Nou,,Head-to-Head,,72385216537621
+28,Sun,2026-03-15,,Real Madrid,,Elche,,Estadio Santiago Bernabéu,,Head-to-Head,,50000197621346
+28,Sun,2026-03-15,,Mallorca,,Espanyol,,Estadi Mallorca Son Moix,,Head-to-Head,,263012971060654
+28,Sun,2026-03-15,,Girona,,Athletic Club,,Estadi Municipal de Montilivi,,Head-to-Head,,260174416167240
+28,Sun,2026-03-15,,Alavés,,Villarreal,,Estadio de Mendizorroza,,Head-to-Head,,190945206558752
+28,Sun,2026-03-15,,Real Sociedad,,Osasuna,,Reale Arena,,Head-to-Head,,9995983172444
+28,Sun,2026-03-15,,Rayo Vallecano,,Levante,,Campo de Fútbol de Vallecas,,Head-to-Head,,73131347406827
+28,Sun,2026-03-15,,Real Betis,,Celta Vigo,,Estadio La Cartuja de Sevilla,,Head-to-Head,,159818626721587
+28,Sun,2026-03-15,,Oviedo,,Valencia,,Estadio Nuevo Carlos Tartiere,,Head-to-Head,,200614202307798
+28,Sun,2026-03-15,,Atlético Madrid,,Getafe,,Riyadh Air Metropolitan Stadium,,Head-to-Head,,270798070485084
+29,Sun,2026-03-22,,Elche,,Mallorca,,Estadio Manuel Martínez Valero,,Head-to-Head,,77080488133405
+29,Sun,2026-03-22,,Celta Vigo,,Alavés,,Estadio Abanca Balaídos,,Head-to-Head,,280062639872375
+29,Sun,2026-03-22,,Barcelona,,Rayo Vallecano,,Spotify Camp Nou,,Head-to-Head,,113991653919723
+29,Sun,2026-03-22,,Sevilla,,Valencia,,Estadio Ramón Sánchez Pizjuán,,Head-to-Head,,242540361280250
+29,Sun,2026-03-22,,Osasuna,,Girona,,Estadio El Sadar,,Head-to-Head,,139027022479578
+29,Sun,2026-03-22,,Villarreal,,Real Sociedad,,Estadio de la Cerámica,,Head-to-Head,,265886677392266
+29,Sun,2026-03-22,,Espanyol,,Getafe,,RCDE Stadium,,Head-to-Head,,222404552551979
+29,Sun,2026-03-22,,Levante,,Oviedo,,Estadio Ciudad de Valencia,,Head-to-Head,,33294574250875
+29,Sun,2026-03-22,,Real Madrid,,Atlético Madrid,,Estadio Santiago Bernabéu,,Head-to-Head,,247680621158552
+29,Sun,2026-03-22,,Athletic Club,,Real Betis,,San Mamés,,Head-to-Head,,208116569804276
+30,Sun,2026-04-05,,Valencia,,Celta Vigo,,Estadio de Mestalla,,Head-to-Head,,109251171367051
+30,Sun,2026-04-05,,Oviedo,,Sevilla,,Estadio Nuevo Carlos Tartiere,,Head-to-Head,,255657509986015
+30,Sun,2026-04-05,,Getafe,,Athletic Club,,Coliseum Alfonso Pérez,,Head-to-Head,,70954277473801
+30,Sun,2026-04-05,,Real Sociedad,,Levante,,Reale Arena,,Head-to-Head,,118324403737434
+30,Sun,2026-04-05,,Atlético Madrid,,Barcelona,,Riyadh Air Metropolitan Stadium,,Head-to-Head,,223547109295601
+30,Sun,2026-04-05,,Girona,,Villarreal,,Estadi Municipal de Montilivi,,Head-to-Head,,46275893433312
+30,Sun,2026-04-05,,Alavés,,Osasuna,,Estadio de Mendizorroza,,Head-to-Head,,190080655876356
+30,Sun,2026-04-05,,Mallorca,,Real Madrid,,Estadi Mallorca Son Moix,,Head-to-Head,,189383507522334
+30,Sun,2026-04-05,,Real Betis,,Espanyol,,Estadio La Cartuja de Sevilla,,Head-to-Head,,226737772924295
+30,Sun,2026-04-05,,Rayo Vallecano,,Elche,,Campo de Fútbol de Vallecas,,Head-to-Head,,33314785656358
+31,Sun,2026-04-12,,Mallorca,,Rayo Vallecano,,Estadi Mallorca Son Moix,,Head-to-Head,,137965179038444
+31,Sun,2026-04-12,,Real Madrid,,Girona,,Estadio Santiago Bernabéu,,Head-to-Head,,8856601088593
+31,Sun,2026-04-12,,Athletic Club,,Villarreal,,San Mamés,,Head-to-Head,,238319576151040
+31,Sun,2026-04-12,,Levante,,Getafe,,Estadio Ciudad de Valencia,,Head-to-Head,,114045864477102
+31,Sun,2026-04-12,,Elche,,Valencia,,Estadio Manuel Martínez Valero,,Head-to-Head,,131128405878934
+31,Sun,2026-04-12,,Sevilla,,Atlético Madrid,,Estadio Ramón Sánchez Pizjuán,,Head-to-Head,,38778677312802
+31,Sun,2026-04-12,,Celta Vigo,,Oviedo,,Estadio Abanca Balaídos,,Head-to-Head,,187870174630051
+31,Sun,2026-04-12,,Osasuna,,Real Betis,,Estadio El Sadar,,Head-to-Head,,269475719335433
+31,Sun,2026-04-12,,Barcelona,,Espanyol,,Spotify Camp Nou,,Head-to-Head,,263842963718334
+31,Sun,2026-04-12,,Real Sociedad,,Alavés,,Reale Arena,,Head-to-Head,,183731417360531
+33,Wed,2026-04-22,,Elche,,Atlético Madrid,,Estadio Manuel Martínez Valero,,Head-to-Head,,203063321407769
+33,Wed,2026-04-22,,Barcelona,,Celta Vigo,,Spotify Camp Nou,,Head-to-Head,,64630535507677
+33,Wed,2026-04-22,,Levante,,Sevilla,,Estadio Ciudad de Valencia,,Head-to-Head,,221823571823063
+33,Wed,2026-04-22,,Real Madrid,,Alavés,,Estadio Santiago Bernabéu,,Head-to-Head,,16486457801784
+33,Wed,2026-04-22,,Real Sociedad,,Getafe,,Reale Arena,,Head-to-Head,,4134997017948
+33,Wed,2026-04-22,,Mallorca,,Valencia,,Estadi Mallorca Son Moix,,Head-to-Head,,156520746538426
+33,Wed,2026-04-22,,Girona,,Real Betis,,Estadi Municipal de Montilivi,,Head-to-Head,,213589917813659
+33,Wed,2026-04-22,,Oviedo,,Villarreal,,Estadio Nuevo Carlos Tartiere,,Head-to-Head,,137597844864929
+33,Wed,2026-04-22,,Athletic Club,,Osasuna,,San Mamés,,Head-to-Head,,176967301607945
+33,Wed,2026-04-22,,Rayo Vallecano,,Espanyol,,Campo de Fútbol de Vallecas,,Head-to-Head,,127785661998589
+32,Sun,2026-04-26,,Osasuna,,Sevilla,,Estadio El Sadar,,Head-to-Head,,49163500400424
+32,Sun,2026-04-26,,Real Betis,,Real Madrid,,Estadio La Cartuja de Sevilla,,Head-to-Head,,124732468967602
+32,Sun,2026-04-26,,Rayo Vallecano,,Real Sociedad,,Campo de Fútbol de Vallecas,,Head-to-Head,,216335396716711
+32,Sun,2026-04-26,,Alavés,,Mallorca,,Estadio de Mendizorroza,,Head-to-Head,,59016981890316
+32,Sun,2026-04-26,,Oviedo,,Elche,,Estadio Nuevo Carlos Tartiere,,Head-to-Head,,230066862676340
+32,Sun,2026-04-26,,Espanyol,,Levante,,RCDE Stadium,,Head-to-Head,,205551065168251
+32,Sun,2026-04-26,,Getafe,,Barcelona,,Coliseum Alfonso Pérez,,Head-to-Head,,99335290532409
+32,Sun,2026-04-26,,Valencia,,Girona,,Estadio de Mestalla,,Head-to-Head,,188878696721360
+32,Sun,2026-04-26,,Atlético Madrid,,Athletic Club,,Riyadh Air Metropolitan Stadium,,Head-to-Head,,151179176072930
+32,Sun,2026-04-26,,Villarreal,,Celta Vigo,,Estadio de la Cerámica,,Head-to-Head,,175236264783600
+34,Sun,2026-05-03,,Sevilla,,Real Sociedad,,Estadio Ramón Sánchez Pizjuán,,Head-to-Head,,68721499709377
+34,Sun,2026-05-03,,Espanyol,,Real Madrid,,RCDE Stadium,,Head-to-Head,,136642593989144
+34,Sun,2026-05-03,,Getafe,,Rayo Vallecano,,Coliseum Alfonso Pérez,,Head-to-Head,,113613210219853
+34,Sun,2026-05-03,,Real Betis,,Oviedo,,Estadio La Cartuja de Sevilla,,Head-to-Head,,46952270883942
+34,Sun,2026-05-03,,Celta Vigo,,Elche,,Estadio Abanca Balaídos,,Head-to-Head,,141474607300017
+34,Sun,2026-05-03,,Osasuna,,Barcelona,,Estadio El Sadar,,Head-to-Head,,100814823293582
+34,Sun,2026-05-03,,Alavés,,Athletic Club,,Estadio de Mendizorroza,,Head-to-Head,,81151371865725
+34,Sun,2026-05-03,,Valencia,,Atlético Madrid,,Estadio de Mestalla,,Head-to-Head,,140377639226940
+34,Sun,2026-05-03,,Girona,,Mallorca,,Estadi Municipal de Montilivi,,Head-to-Head,,226375279454238
+34,Sun,2026-05-03,,Villarreal,,Levante,,Estadio de la Cerámica,,Head-to-Head,,178986158313354
+35,Sun,2026-05-10,,Oviedo,,Getafe,,Estadio Nuevo Carlos Tartiere,,Head-to-Head,,88142921910000
+35,Sun,2026-05-10,,Sevilla,,Espanyol,,Estadio Ramón Sánchez Pizjuán,,Head-to-Head,,158940182433986
+35,Sun,2026-05-10,,Levante,,Osasuna,,Estadio Ciudad de Valencia,,Head-to-Head,,118896934630429
+35,Sun,2026-05-10,,Barcelona,,Real Madrid,,Spotify Camp Nou,,Head-to-Head,,22416647269952
+35,Sun,2026-05-10,,Real Sociedad,,Real Betis,,Reale Arena,,Head-to-Head,,121380534298
+35,Sun,2026-05-10,,Mallorca,,Villarreal,,Estadi Mallorca Son Moix,,Head-to-Head,,46084533262473
+35,Sun,2026-05-10,,Rayo Vallecano,,Girona,,Campo de Fútbol de Vallecas,,Head-to-Head,,93909983104572
+35,Sun,2026-05-10,,Atlético Madrid,,Celta Vigo,,Riyadh Air Metropolitan Stadium,,Head-to-Head,,199270821408437
+35,Sun,2026-05-10,,Elche,,Alavés,,Estadio Manuel Martínez Valero,,Head-to-Head,,101412679560855
+35,Sun,2026-05-10,,Athletic Club,,Valencia,,San Mamés,,Head-to-Head,,48778277549468
+36,Wed,2026-05-13,,Alavés,,Barcelona,,Estadio de Mendizorroza,,Head-to-Head,,108621908789264
+36,Wed,2026-05-13,,Getafe,,Mallorca,,Coliseum Alfonso Pérez,,Head-to-Head,,232429751839984
+36,Wed,2026-05-13,,Valencia,,Rayo Vallecano,,Estadio de Mestalla,,Head-to-Head,,254448479280160
+36,Wed,2026-05-13,,Real Betis,,Elche,,Estadio La Cartuja de Sevilla,,Head-to-Head,,221680037030532
+36,Wed,2026-05-13,,Espanyol,,Athletic Club,,RCDE Stadium,,Head-to-Head,,69013532394846
+36,Wed,2026-05-13,,Celta Vigo,,Levante,,Estadio Abanca Balaídos,,Head-to-Head,,71147501522286
+36,Wed,2026-05-13,,Villarreal,,Sevilla,,Estadio de la Cerámica,,Head-to-Head,,28330554067217
+36,Wed,2026-05-13,,Osasuna,,Atlético Madrid,,Estadio El Sadar,,Head-to-Head,,272802592518787
+36,Wed,2026-05-13,,Girona,,Real Sociedad,,Estadi Municipal de Montilivi,,Head-to-Head,,265227090219082
+36,Wed,2026-05-13,,Real Madrid,,Oviedo,,Estadio Santiago Bernabéu,,Head-to-Head,,89262998385449
+37,Sun,2026-05-17,,Oviedo,,Alavés,,Estadio Nuevo Carlos Tartiere,,Head-to-Head,,250956283457130
+37,Sun,2026-05-17,,Athletic Club,,Celta Vigo,,San Mamés,,Head-to-Head,,102936112197675
+37,Sun,2026-05-17,,Real Sociedad,,Valencia,,Reale Arena,,Head-to-Head,,96929992484336
+37,Sun,2026-05-17,,Atlético Madrid,,Girona,,Riyadh Air Metropolitan Stadium,,Head-to-Head,,177403760537686
+37,Sun,2026-05-17,,Osasuna,,Espanyol,,Estadio El Sadar,,Head-to-Head,,209748011611463
+37,Sun,2026-05-17,,Sevilla,,Real Madrid,,Estadio Ramón Sánchez Pizjuán,,Head-to-Head,,168329939092729
+37,Sun,2026-05-17,,Levante,,Mallorca,,Estadio Ciudad de Valencia,,Head-to-Head,,188956343663886
+37,Sun,2026-05-17,,Barcelona,,Real Betis,,Spotify Camp Nou,,Head-to-Head,,141517663137629
+37,Sun,2026-05-17,,Rayo Vallecano,,Villarreal,,Campo de Fútbol de Vallecas,,Head-to-Head,,202669021766095
+37,Sun,2026-05-17,,Elche,,Getafe,,Estadio Manuel Martínez Valero,,Head-to-Head,,99514339233431
+38,Sun,2026-05-24,,Getafe,,Osasuna,,Coliseum Alfonso Pérez,,Head-to-Head,,209439497265362
+38,Sun,2026-05-24,,Villarreal,,Atlético Madrid,,Estadio de la Cerámica,,Head-to-Head,,6043697052988
+38,Sun,2026-05-24,,Real Madrid,,Athletic Club,,Estadio Santiago Bernabéu,,Head-to-Head,,223321602168246
+38,Sun,2026-05-24,,Alavés,,Rayo Vallecano,,Estadio de Mendizorroza,,Head-to-Head,,45119014092660
+38,Sun,2026-05-24,,Espanyol,,Real Sociedad,,RCDE Stadium,,Head-to-Head,,192508960801731
+38,Sun,2026-05-24,,Real Betis,,Levante,,Estadio La Cartuja de Sevilla,,Head-to-Head,,59937157497706
+38,Sun,2026-05-24,,Mallorca,,Oviedo,,Estadi Mallorca Son Moix,,Head-to-Head,,45893513531146
+38,Sun,2026-05-24,,Celta Vigo,,Sevilla,,Estadio Abanca Balaídos,,Head-to-Head,,135762628638373
+38,Sun,2026-05-24,,Valencia,,Barcelona,,Estadio de Mestalla,,Head-to-Head,,255497748536575
+38,Sun,2026-05-24,,Girona,,Elche,,Estadi Municipal de Montilivi,,Head-to-Head,,149596871420899

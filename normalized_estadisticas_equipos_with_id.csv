@@ -1,0 +1,229 @@
+id,poss_home,poss_away,home_team,away_team,shots_ot_home,shots_total_home,shots_ot_away,shots_total_away,saves_home,saves_away,cards_home,cards_away,home_fixed,away_fixed,month_txt,home_norm,away_norm,Date
+247102277803306.0,44,56,Girona,Rayo Vallecano August,2,7,31,5,2,50,0,0,Girona,Rayo Vallecano,August,girona,rayo vallecano,2025-08-15
+127040197594831.0,68,32,Villarreal,Oviedo August,10,25,80,4,3,80,0,0,Villarreal,Oviedo,August,villarreal,oviedo,2025-08-15
+51663335405182.0,29,71,Mallorca,Barcelona August,1,4,33,8,5,100,0,0,Mallorca,Barcelona,August,mallorca,barcelona,2025-08-16
+45932207628643.0,62,38,Alaves,Levante August,4,15,43,3,2,50,0,0,Alaves,Levante,August,alaves,levante,2025-08-16
+261612402375946.0,54,46,Valencia,Real Sociedad August,2,18,23,3,2,50,0,0,Valencia,Real Sociedad,August,valencia,real sociedad,2025-08-16
+50129590343307.0,69,31,Celta,Vigo Getafe August,3,11,30,3,1,100,0,0,Celta Vigo,Getafe,August,celta vigo,getafe,2025-08-17
+27919808326157.0,46,54,Athletic,Club Sevilla August,3,14,50,6,4,0,0,0,Athletic Club,Sevilla,August,athletic club,sevilla,2025-08-17
+87744010723513.0,40,60,Espanyol,Atletico Madrid August,5,9,27,4,3,60,0,0,Espanyol,Atletico Madrid,August,espanyol,atletico madrid,2025-08-17
+144528646683596.0,68,32,Elche,Real Betis August,2,6,33,4,3,50,0,0,Elche,Real Betis,August,elche,real betis,2025-08-18
+111346431724064.0,71,29,Real,Madrid Osasuna August,5,18,0,0,0,80,0,0,Real Madrid,Osasuna,August,real madrid,osasuna,2025-08-19
+130620005776571.0,49,51,Real,Betis Alaves August,5,16,45,5,5,100,0,0,Real Betis,Alaves,August,real betis,alaves,2025-08-22
+205247645787742.0,50,50,Mallorca,Celta Vigo August,4,12,25,2,1,75,0,0,Mallorca,Celta Vigo,August,mallorca,celta vigo,2025-08-23
+179986844463039.0,58,42,Atletico,Madrid Elche August,6,13,33,2,1,83,0,0,Atletico Madrid,Elche,August,atletico madrid,elche,2025-08-23
+244648913498441.0,18,82,Levante,Barcelona August,5,8,38,10,9,60,0,0,Levante,Barcelona,August,levante,barcelona,2025-08-23
+9215938375097.0,55,45,Osasuna,Valencia August,4,16,25,1,1,75,0,0,Osasuna,Valencia,August,osasuna,valencia,2025-08-24
+98553906407820.0,62,38,Real,Sociedad Espanyol August,7,15,21,3,1,71,0,0,Real Sociedad,Espanyol,August,real sociedad,espanyol,2025-08-24
+50232676197012.0,53,48,Villarreal,Girona August,7,19,40,2,2,28,0,0,Villarreal,Girona,August,villarreal,girona,2025-08-24
+261429100829799.0,35,65,Oviedo,Real Madrid August,3,6,38,10,8,100,0,0,Oviedo,Real Madrid,August,oviedo,real madrid,2025-08-24
+190836110049714.0,41,60,Athletic,Club Rayo Vallecano August,4,11,17,1,1,75,0,0,Athletic Club,Rayo Vallecano,August,athletic club,rayo vallecano,2025-08-25
+22551900963445.0,71,29,Sevilla,Getafe August,3,12,75,6,4,100,0,0,Sevilla,Getafe,August,sevilla,getafe,2025-08-25
+2683705776554.0,47,53,Celta,Vigo Real Betis August,5,14,29,2,0,80,0,0,Celta Vigo,Real Betis,August,celta vigo,real betis,2025-08-27
+101892602565564.0,67,33,Elche,Levante August,5,16,9,1,1,60,0,0,Elche,Levante,August,elche,levante,2025-08-29
+146098540577909.0,57,43,Valencia,Getafe August,4,7,9,1,1,25,0,0,Valencia,Getafe,August,valencia,getafe,2025-08-29
+165855820707949.0,40,60,Alaves,Atletico Madrid August,2,5,40,6,5,50,0,0,Alaves,Atletico Madrid,August,alaves,atletico madrid,2025-08-30
+142778716575775.0,43,57,Oviedo,Real Sociedad August,1,8,33,6,6,0,0,0,Oviedo,Real Sociedad,August,oviedo,real sociedad,2025-08-30
+139908708942131.0,58,42,Girona,Sevilla August,5,20,31,4,2,100,0,0,Girona,Sevilla,August,girona,sevilla,2025-08-30
+217989826177558.0,58,42,Real,Madrid Mallorca August,7,17,56,5,2,71,0,0,Real Madrid,Mallorca,August,real madrid,mallorca,2025-08-30
+231338422714099.0,65,35,Celta,Vigo Villarreal August,2,10,38,3,2,100,0,0,Celta Vigo,Villarreal,August,celta vigo,villarreal,2025-08-31
+39199701049590.0,51,50,Real,Betis Athletic Club August,2,9,40,6,5,50,0,0,Real Betis,Athletic Club,August,real betis,athletic club,2025-08-31
+241965786970629.0,46,55,Espanyol,Osasuna August,4,10,30,3,3,75,0,0,Espanyol,Osasuna,August,espanyol,osasuna,2025-08-31
+276097815612589.0,43,57,Rayo,Vallecano Barcelona August,6,12,25,3,2,83,0,0,Rayo Vallecano,Barcelona,August,rayo vallecano,barcelona,2025-08-31
+81333748194840.0,53,47,Sevilla,Elche September,3,7,40,2,0,33,0,0,Sevilla,Elche,September,sevilla,elche,2025-09-12
+116211101997292.0,48,52,Getafe,Oviedo September,3,10,20,1,1,33,0,0,Getafe,Oviedo,September,getafe,oviedo,2025-09-13
+114635918702971.0,64,36,Real,Sociedad Real Madrid September,4,23,38,6,4,75,0,0,Real Sociedad,Real Madrid,September,real sociedad,real madrid,2025-09-13
+119223823403712.0,58,42,Athletic,Club Alaves September,3,12,50,2,2,100,0,0,Athletic Club,Alaves,September,athletic club,alaves,2025-09-13
+170064145885084.0,61,39,Atletico,Madrid Villarreal September,3,8,13,1,1,33,0,0,Atletico Madrid,Villarreal,September,atletico madrid,villarreal,2025-09-13
+10121462386030.0,60,40,Celta,Vigo Girona September,7,21,62,8,7,85,0,0,Celta Vigo,Girona,September,celta vigo,girona,2025-09-14
+192735037523147.0,33,67,Levante,Real Betis September,2,5,32,9,7,0,0,0,Levante,Real Betis,September,levante,real betis,2025-09-14
+111735845425841.0,36,64,Osasuna,Rayo Vallecano September,7,9,32,6,6,57,0,0,Osasuna,Rayo Vallecano,September,osasuna,rayo vallecano,2025-09-14
+281427038041694.0,72,28,Barcelona,Valencia September,10,24,50,1,1,50,0,0,Barcelona,Valencia,September,barcelona,valencia,2025-09-14
+75103862774118.0,38,63,Espanyol,Mallorca September,3,9,42,10,8,0,0,0,Espanyol,Mallorca,September,espanyol,mallorca,2025-09-15
+212749074187723.0,50,50,Real,Betis Real Sociedad September,6,21,45,5,4,66,0,0,Real Betis,Real Sociedad,September,real betis,real sociedad,2025-09-19
+168234328340413.0,35,65,Girona,Levante September,1,7,50,7,2,100,0,0,Girona,Levante,September,girona,levante,2025-09-20
+203618710096598.0,72,28,Real,Madrid Espanyol September,5,16,13,1,1,60,0,0,Real Madrid,Espanyol,September,real madrid,espanyol,2025-09-20
+130082495996559.0,48,52,Alaves,Sevilla September,5,8,33,3,1,80,0,0,Alaves,Sevilla,September,alaves,sevilla,2025-09-20
+133094675349419.0,66,34,Villarreal,Osasuna September,8,26,50,3,2,75,0,0,Villarreal,Osasuna,September,villarreal,osasuna,2025-09-20
+43946787856038.0,44,56,Valencia,Athletic Club September,5,13,45,5,5,60,0,0,Valencia,Athletic Club,September,valencia,athletic club,2025-09-20
+7395887435372.0,59,41,Rayo,Vallecano Celta Vigo September,5,15,56,5,4,80,0,0,Rayo Vallecano,Celta Vigo,September,rayo vallecano,celta vigo,2025-09-21
+30693583959196.0,42,58,Mallorca,Atletico Madrid September,3,8,58,7,5,66,0,0,Mallorca,Atletico Madrid,September,mallorca,atletico madrid,2025-09-21
+127405226125507.0,61,39,Elche,Oviedo September,5,15,33,4,4,80,0,0,Elche,Oviedo,September,elche,oviedo,2025-09-21
+55410058921308.0,71,29,Barcelona,Getafe September,7,16,67,2,2,57,0,0,Barcelona,Getafe,September,barcelona,getafe,2025-09-21
+183229468392266.0,56,44,Espanyol,Valencia September,10,21,40,2,0,60,0,0,Espanyol,Valencia,September,espanyol,valencia,2025-09-23
+275277792510298.0,67,33,Athletic,Club Girona September,5,17,50,3,2,80,0,0,Athletic Club,Girona,September,athletic club,girona,2025-09-23
+266130006587319.0,38,62,Levante,Real Madrid September,2,11,42,10,6,50,0,0,Levante,Real Madrid,September,levante,real madrid,2025-09-23
+186679647772313.0,66,35,Sevilla,Villarreal September,2,16,42,5,3,50,0,0,Sevilla,Villarreal,September,sevilla,villarreal,2025-09-23
+67613765501946.0,46,54,Getafe,Alaves September,1,7,40,4,4,0,0,0,Getafe,Alaves,September,getafe,alaves,2025-09-24
+117984295432745.0,61,39,Atletico,Madrid Rayo Vallecano September,8,20,33,3,1,62,0,0,Atletico Madrid,Rayo Vallecano,September,atletico madrid,rayo vallecano,2025-09-24
+236927472265011.0,64,36,Real,Sociedad Mallorca September,4,17,43,3,3,75,0,0,Real Sociedad,Mallorca,September,real sociedad,mallorca,2025-09-24
+125464082459181.0,39,61,Osasuna,Elche September,2,9,33,4,3,50,0,0,Osasuna,Elche,September,osasuna,elche,2025-09-25
+181953479192697.0,21,80,Oviedo,Barcelona September,3,7,45,10,7,66,0,0,Oviedo,Barcelona,September,oviedo,barcelona,2025-09-25
+144047014190753.0,60,40,Girona,Espanyol September,3,12,25,5,5,100,0,0,Girona,Espanyol,September,girona,espanyol,2025-09-26
+242013668070201.0,54,46,Getafe,Levante September,4,11,27,3,2,75,0,0,Getafe,Levante,September,getafe,levante,2025-09-27
+,37,63,El,Derbi Madrileno Atletico Madrid Real Madrid September,7,13,33,2,0,28,0,0,El,Derbi Madrileno Atletico Madrid Real Madrid,September,el,derbi madrileno atletico madrid real madrid,
+175204441885868.0,39,62,Mallorca,Alaves September,3,12,25,3,3,33,0,0,Mallorca,Alaves,September,mallorca,alaves,2025-09-27
+46084056047093.0,42,58,Villarreal,Athletic Club September,5,14,25,4,4,80,0,0,Villarreal,Athletic Club,September,villarreal,athletic club,2025-09-27
+90424437776635.0,64,36,Rayo,Vallecano Sevilla September,6,18,25,1,0,100,0,0,Rayo Vallecano,Sevilla,September,rayo vallecano,sevilla,2025-09-28
+280316716603656.0,62,38,Elche,Celta Vigo September,8,17,25,2,1,62,0,0,Elche,Celta Vigo,September,elche,celta vigo,2025-09-28
+107894924367110.0,75,25,Barcelona,Real Sociedad September,12,22,29,2,1,66,0,0,Barcelona,Real Sociedad,September,barcelona,real sociedad,2025-09-28
+191037104569540.0,51,50,Real,Betis Osasuna September,6,12,8,1,1,66,0,0,Real Betis,Osasuna,September,real betis,osasuna,2025-09-28
+136755605360882.0,57,43,Valencia,Oviedo September,5,16,40,4,2,60,0,0,Valencia,Oviedo,September,valencia,oviedo,2025-09-30
+149529704628947.0,58,42,Osasuna,Getafe October,3,7,33,2,1,66,0,0,Osasuna,Getafe,October,osasuna,getafe,2025-10-03
+39518732591537.0,57,43,Oviedo,Levante October,2,13,36,5,3,100,0,0,Oviedo,Levante,October,oviedo,levante,2025-10-04
+125648939033193.0,45,55,Girona,Valencia October,4,4,32,6,5,50,0,0,Girona,Valencia,October,girona,valencia,2025-10-04
+43788885623702.0,52,48,Athletic,Club Mallorca October,5,18,33,2,1,60,0,0,Athletic Club,Mallorca,October,athletic club,mallorca,2025-10-04
+225843569246768.0,70,31,Real,Madrid Villarreal October,7,26,22,2,1,57,0,0,Real Madrid,Villarreal,October,real madrid,villarreal,2025-10-04
+125712383575680.0,47,53,Alaves,Elche October,5,25,50,3,2,40,0,0,Alaves,Elche,October,alaves,elche,2025-10-05
+70990788457885.0,39,61,Sevilla,Barcelona October,5,13,47,8,7,20,0,0,Sevilla,Barcelona,October,sevilla,barcelona,2025-10-05
+115383552720083.0,50,50,Espanyol,Real Betis October,5,14,25,3,1,60,0,0,Espanyol,Real Betis,October,espanyol,real betis,2025-10-05
+218211205609476.0,51,49,Real,Sociedad Rayo Vallecano October,3,10,29,2,1,100,0,0,Real Sociedad,Rayo Vallecano,October,real sociedad,rayo vallecano,2025-10-05
+161406442093837.0,59,41,Celta,Vigo Atletico Madrid October,4,18,17,1,1,75,0,0,Celta Vigo,Atletico Madrid,October,celta vigo,atletico madrid,2025-10-05
+121752485147317.0,61,39,Oviedo,Espanyol October,4,13,53,10,8,100,0,0,Oviedo,Espanyol,October,oviedo,espanyol,2025-10-17
+113189581016765.0,58,42,Sevilla,Mallorca October,4,13,86,6,3,75,0,0,Sevilla,Mallorca,October,sevilla,mallorca,2025-10-18
+205022729024640.0,68,32,Barcelona,Girona October,9,27,36,4,3,77,0,0,Barcelona,Girona,October,barcelona,girona,2025-10-18
+43123034282656.0,39,61,Villarreal,Real Betis October,3,7,19,3,1,66,0,0,Villarreal,Real Betis,October,villarreal,real betis,2025-10-18
+97542611844075.0,59,41,Atletico,Madrid Osasuna October,9,18,22,2,2,88,0,0,Atletico Madrid,Osasuna,October,atletico madrid,osasuna,2025-10-18
+100012646648395.0,69,31,Elche,Athletic Club October,5,15,25,1,1,100,0,0,Elche,Athletic Club,October,elche,athletic club,2025-10-19
+122694556029353.0,41,59,Celta,Vigo Real Sociedad October,1,4,41,7,6,0,0,0,Celta Vigo,Real Sociedad,October,celta vigo,real sociedad,2025-10-19
+163343429060959.0,54,46,Levante,Rayo Vallecano October,4,17,50,5,1,100,0,0,Levante,Rayo Vallecano,October,levante,rayo vallecano,2025-10-19
+15045513827979.0,24,76,Getafe,Real Madrid October,1,7,43,10,9,100,0,0,Getafe,Real Madrid,October,getafe,real madrid,2025-10-19
+87432229548299.0,63,38,Alaves,Valencia October,3,13,40,2,2,100,0,0,Alaves,Valencia,October,alaves,valencia,2025-10-20
+5032611259275.0,40,60,Real,Sociedad Sevilla October,3,5,17,1,0,33,0,0,Real Sociedad,Sevilla,October,real sociedad,sevilla,2025-10-24
+125986801044396.0,65,35,Girona,Oviedo October,6,8,50,5,2,50,0,0,Girona,Oviedo,October,girona,oviedo,2025-10-25
+217617549854870.0,32,68,Espanyol,Elche October,7,16,31,4,4,85,0,0,Espanyol,Elche,October,espanyol,elche,2025-10-25
+240235579276521.0,57,43,Athletic,Club Getafe October,4,7,38,3,3,100,0,0,Athletic Club,Getafe,October,athletic club,getafe,2025-10-25
+211188047924725.0,57,43,Valencia,Villarreal October,3,15,42,5,3,100,0,0,Valencia,Villarreal,October,valencia,villarreal,2025-10-25
+266459115822441.0,63,37,Mallorca,Levante October,4,20,38,5,4,100,0,0,Mallorca,Levante,October,mallorca,levante,2025-10-26
+,32,69,El,Clasico Real Madrid Barcelona October,10,23,40,6,4,80,0,0,El,Clasico Real Madrid Barcelona,October,el,clasico real madrid barcelona,
+70416217227440.0,62,39,Osasuna,Celta Vigo October,7,17,45,5,2,71,0,0,Osasuna,Celta Vigo,October,osasuna,celta vigo,2025-10-26
+99147758124915.0,54,47,Rayo,Vallecano Alaves October,5,15,17,2,2,80,0,0,Rayo Vallecano,Alaves,October,rayo vallecano,alaves,2025-10-26
+279595461165615.0,57,43,Real,Betis Atletico Madrid October,5,17,44,4,2,100,0,0,Real Betis,Atletico Madrid,October,real betis,atletico madrid,2025-10-27
+26143173390922.0,40,60,Getafe,Girona October,4,12,50,4,3,50,0,0,Getafe,Girona,October,getafe,girona,2025-10-31
+57267236260772.0,47,53,Villarreal,Rayo Vallecano November,7,16,23,3,3,42,0,0,Villarreal,Rayo Vallecano,November,villarreal,rayo vallecano,2025-11-01
+215273675829103.0,47,53,Atletico,Madrid Sevilla November,6,15,20,2,2,50,0,0,Atletico Madrid,Sevilla,November,atletico madrid,sevilla,2025-11-01
+128059159303519.0,51,49,Real,Sociedad Athletic Club November,5,9,36,4,2,40,0,0,Real Sociedad,Athletic Club,November,real sociedad,athletic club,2025-11-01
+260045177303107.0,65,35,Real,Madrid Valencia November,11,21,25,1,1,54,0,0,Real Madrid,Valencia,November,real madrid,valencia,2025-11-01
+225474460646579.0,36,64,Levante,Celta Vigo November,3,9,30,6,5,66,0,0,Levante,Celta Vigo,November,levante,celta vigo,2025-11-02
+71552518573511.0,54,46,Alaves,Espanyol November,4,13,11,2,1,50,0,0,Alaves,Espanyol,November,alaves,espanyol,2025-11-02
+120962390888885.0,49,51,Barcelona,Elche November,5,17,33,3,2,40,0,0,Barcelona,Elche,November,barcelona,elche,2025-11-02
+16354935909941.0,53,48,Real,Betis Mallorca November,8,15,7,1,1,62,0,0,Real Betis,Mallorca,November,real betis,mallorca,2025-11-02
+108080026272328.0,53,47,Oviedo,Osasuna November,2,8,45,5,5,100,0,0,Oviedo,Osasuna,November,oviedo,osasuna,2025-11-03
+86930806509335.0,63,37,Elche,Real Sociedad November,3,12,38,5,4,66,0,0,Elche,Real Sociedad,November,elche,real sociedad,2025-11-07
+276761382324566.0,52,48,Girona,Alaves November,2,10,36,5,5,50,0,0,Girona,Alaves,November,girona,alaves,2025-11-08
+120392036606919.0,47,53,Sevilla,Osasuna November,4,10,33,3,3,75,0,0,Sevilla,Osasuna,November,sevilla,osasuna,2025-11-08
+144025450835022.0,74,26,Atletico,Madrid Levante November,10,25,50,3,2,80,0,0,Atletico Madrid,Levante,November,atletico madrid,levante,2025-11-08
+49912487743273.0,55,45,Espanyol,Villarreal November,3,14,33,3,2,100,0,0,Espanyol,Villarreal,November,espanyol,villarreal,2025-11-08
+102381573900005.0,48,52,Athletic,Club Oviedo November,7,21,50,2,2,100,0,0,Athletic Club,Oviedo,November,athletic club,oviedo,2025-11-09
+14363514735660.0,46,55,Rayo,Vallecano Real Madrid November,2,13,24,5,5,100,0,0,Rayo Vallecano,Real Madrid,November,rayo vallecano,real madrid,2025-11-09
+171498132861949.0,39,61,Mallorca,Getafe November,4,6,21,3,2,50,0,0,Mallorca,Getafe,November,mallorca,getafe,2025-11-09
+71824464063421.0,43,57,Valencia,Real Betis November,4,17,22,2,1,75,0,0,Valencia,Real Betis,November,valencia,real betis,2025-11-09
+112411683314944.0,39,62,Celta,Vigo Barcelona November,3,5,43,9,5,33,0,0,Celta Vigo,Barcelona,November,celta vigo,barcelona,2025-11-09
+6362656669454.0,60,41,Valencia,Levante November,3,14,0,0,0,66,0,0,Valencia,Levante,November,valencia,levante,2025-11-21
+184983825241068.0,52,49,Alaves,Celta Vigo November,2,5,57,4,3,100,0,0,Alaves,Celta Vigo,November,alaves,celta vigo,2025-11-22
+149440693544582.0,68,32,Barcelona,Athletic Club November,7,19,15,2,2,42,0,0,Barcelona,Athletic Club,November,barcelona,athletic club,2025-11-22
+42506875124295.0,46,54,Osasuna,Real Sociedad November,4,14,47,9,6,100,0,0,Osasuna,Real Sociedad,November,osasuna,real sociedad,2025-11-22
+141493924351016.0,58,42,Villarreal,Mallorca November,7,14,33,3,2,71,0,0,Villarreal,Mallorca,November,villarreal,mallorca,2025-11-22
+240600018970803.0,39,61,Oviedo,Rayo Vallecano November,3,8,27,3,2,66,0,0,Oviedo,Rayo Vallecano,November,oviedo,rayo vallecano,2025-11-23
+243786207784554.0,54,46,Real,Betis Girona November,7,23,36,4,3,85,0,0,Real Betis,Girona,November,real betis,girona,2025-11-23
+19529544917174.0,41,59,Getafe,Atletico Madrid November,1,9,46,6,6,100,0,0,Getafe,Atletico Madrid,November,getafe,atletico madrid,2025-11-23
+167073112899369.0,49,52,Elche,Real Madrid November,6,15,35,7,5,66,0,0,Elche,Real Madrid,November,elche,real madrid,2025-11-23
+24440480462873.0,33,67,Espanyol,Sevilla November,5,8,27,6,5,60,0,0,Espanyol,Sevilla,November,espanyol,sevilla,2025-11-24
+246618020730085.0,34,67,Getafe,Elche November,6,15,44,4,4,66,0,0,Getafe,Elche,November,getafe,elche,2025-11-28
+188728039961764.0,53,48,Mallorca,Osasuna November,4,7,14,2,0,50,0,0,Mallorca,Osasuna,November,mallorca,osasuna,2025-11-29
+36398422825622.0,69,31,Barcelona,Alaves November,6,18,33,3,1,50,0,0,Barcelona,Alaves,November,barcelona,alaves,2025-11-29
+137057036007683.0,56,44,Levante,Athletic Club November,4,11,29,4,1,100,0,0,Levante,Athletic Club,November,levante,athletic club,2025-11-29
+207872139391536.0,52,48,Atletico,Madrid Oviedo November,8,14,8,1,1,75,0,0,Atletico Madrid,Oviedo,November,atletico madrid,oviedo,2025-11-29
+189167058479105.0,60,40,Real,Sociedad Villarreal November,7,18,50,5,1,71,0,0,Real Sociedad,Villarreal,November,real sociedad,villarreal,2025-11-30
+251107807545272.0,65,35,Sevilla,Real Betis November,3,9,44,4,2,66,0,0,Sevilla,Real Betis,November,sevilla,real betis,2025-11-30
+125140908145739.0,60,40,Celta,Vigo Espanyol November,4,11,22,2,1,100,0,0,Celta Vigo,Espanyol,November,celta vigo,espanyol,2025-11-30
+13210013621380.0,40,60,Girona,Real Madrid November,4,10,16,4,4,75,0,0,Girona,Real Madrid,November,girona,real madrid,2025-11-30
+272335952982555.0,56,44,Rayo,Vallecano Valencia December,7,19,20,2,0,71,0,0,Rayo Vallecano,Valencia,December,rayo vallecano,valencia,2025-12-01
+1350566588958.0,58,42,Barcelona,Atletico Madrid December,6,19,29,2,1,50,0,0,Barcelona,Atletico Madrid,December,barcelona,atletico madrid,2025-12-02
+57962715965650.0,38,62,Athletic,Club Real Madrid December,4,9,62,8,5,100,0,0,Athletic Club,Real Madrid,December,athletic club,real madrid,2025-12-03
+183333492791392.0,62,38,Oviedo,Mallorca December,3,15,46,6,5,100,0,0,Oviedo,Mallorca,December,oviedo,mallorca,2025-12-05
+176082216387051.0,61,39,Villarreal,Getafe December,5,10,0,0,0,60,0,0,Villarreal,Getafe,December,villarreal,getafe,2025-12-06
+167585334666101.0,38,62,Alaves,Real Sociedad December,3,14,10,1,1,66,0,0,Alaves,Real Sociedad,December,alaves,real sociedad,2025-12-06
+217440347695720.0,38,62,Real,Betis Barcelona December,5,17,50,8,3,40,0,0,Real Betis,Barcelona,December,real betis,barcelona,2025-12-06
+73071948011060.0,44,56,Athletic,Club Atletico Madrid December,3,14,43,3,3,66,0,0,Athletic Club,Atletico Madrid,December,athletic club,atletico madrid,2025-12-06
+180603293315389.0,58,42,Elche,Girona December,6,11,50,4,4,50,0,0,Elche,Girona,December,elche,girona,2025-12-07
+2981099111893.0,48,52,Valencia,Sevilla December,3,11,25,1,1,66,0,0,Valencia,Sevilla,December,valencia,sevilla,2025-12-07
+226253330782479.0,37,64,Espanyol,Rayo Vallecano December,2,9,33,2,2,50,0,0,Espanyol,Rayo Vallecano,December,espanyol,rayo vallecano,2025-12-07
+248180254415866.0,58,42,Real,Madrid Celta Vigo December,7,23,71,5,3,100,0,0,Real Madrid,Celta Vigo,December,real madrid,celta vigo,2025-12-07
+271746510263835.0,41,59,Osasuna,Levante December,6,14,45,5,4,66,0,0,Osasuna,Levante,December,osasuna,levante,2025-12-08
+22708260528459.0,47,53,Real,Sociedad Girona December,4,9,21,3,1,75,0,0,Real Sociedad,Girona,December,real sociedad,girona,2025-12-12
+42666257678967.0,46,54,Atletico,Madrid Valencia December,6,10,15,2,1,66,0,0,Atletico Madrid,Valencia,December,atletico madrid,valencia,2025-12-13
+239227505105338.0,42,58,Mallorca,Elche December,8,15,0,0,0,62,0,0,Mallorca,Elche,December,mallorca,elche,2025-12-13
+132554873973078.0,80,20,Barcelona,Osasuna December,7,24,67,2,2,71,0,0,Barcelona,Osasuna,December,barcelona,osasuna,2025-12-13
+176960838690839.0,56,44,Getafe,Espanyol December,1,11,67,4,3,100,0,0,Getafe,Espanyol,December,getafe,espanyol,2025-12-13
+39897857430038.0,56,44,Sevilla,Oviedo December,7,13,25,1,1,42,0,0,Sevilla,Oviedo,December,sevilla,oviedo,2025-12-14
+279785200613578.0,50,50,Celta,Vigo Athletic Club December,2,5,14,2,1,0,0,0,Celta Vigo,Athletic Club,December,celta vigo,athletic club,2025-12-14
+245703247296334.0,52,48,Alaves,Real Madrid December,2,6,46,6,4,50,0,0,Alaves,Real Madrid,December,alaves,real madrid,2025-12-14
+166177493963192.0,59,41,Rayo,Vallecano Real Betis December,7,23,46,6,6,100,0,0,Rayo Vallecano,Real Betis,December,rayo vallecano,real betis,2025-12-15
+192878076068502.0,71,29,Valencia,Mallorca December,2,17,50,2,1,50,0,0,Valencia,Mallorca,December,valencia,mallorca,2025-12-19
+74680842636688.0,56,44,Oviedo,Celta Vigo December,3,10,33,2,2,100,0,0,Oviedo,Celta Vigo,December,oviedo,celta vigo,2025-12-20
+69120326331271.0,44,56,Levante,Real Sociedad December,3,13,33,6,5,66,0,0,Levante,Real Sociedad,December,levante,real sociedad,2025-12-20
+133721547304901.0,47,53,Osasuna,Alaves December,7,16,43,3,3,57,0,0,Osasuna,Alaves,December,osasuna,alaves,2025-12-20
+27391270321084.0,53,47,Real,Madrid Sevilla December,8,18,36,5,5,75,0,0,Real Madrid,Sevilla,December,real madrid,sevilla,2025-12-20
+152078070885886.0,51,49,Girona,Atletico Madrid December,2,9,43,6,3,100,0,0,Girona,Atletico Madrid,December,girona,atletico madrid,2025-12-21
+218009564880358.0,21,80,Villarreal,Barcelona December,5,14,26,5,2,100,0,0,Villarreal,Barcelona,December,villarreal,barcelona,2025-12-21
+36014485551528.0,47,54,Elche,Rayo Vallecano December,6,18,44,8,8,33,0,0,Elche,Rayo Vallecano,December,elche,rayo vallecano,2025-12-21
+189983524250623.0,49,51,Real,Betis Getafe December,8,19,20,3,3,50,0,0,Real Betis,Getafe,December,real betis,getafe,2025-12-21
+77248874686176.0,65,35,Athletic,Club Espanyol December,7,17,50,5,3,85,0,0,Athletic Club,Espanyol,December,athletic club,espanyol,2025-12-22
+246802500144824.0,60,40,Rayo,Vallecano Getafe January,4,13,33,4,3,75,0,0,Rayo Vallecano,Getafe,January,rayo vallecano,getafe,2026-01-02
+80106586136167.0,40,60,Celta,Vigo Valencia January,6,12,31,5,4,33,0,0,Celta Vigo,Valencia,January,celta vigo,valencia,2026-01-03
+262558802025525.0,49,51,Osasuna,Athletic Club January,4,11,38,6,5,75,0,0,Osasuna,Athletic Club,January,osasuna,athletic club,2026-01-03
+42089493261609.0,78,22,Elche,Villarreal January,2,15,33,4,1,50,0,0,Elche,Villarreal,January,elche,villarreal,2026-01-03
+5927245218557.0,31,69,Espanyol,Barcelona January,7,14,40,6,4,85,0,0,Espanyol,Barcelona,January,espanyol,barcelona,2026-01-03
+22651788528907.0,65,36,Sevilla,Levante January,7,15,67,4,1,85,0,0,Sevilla,Levante,January,sevilla,levante,2026-01-04
+73838000687415.0,61,39,Real,Madrid Real Betis January,9,19,38,5,4,44,0,0,Real Madrid,Real Betis,January,real madrid,real betis,2026-01-04
+85885216035168.0,49,51,Mallorca,Girona January,2,9,44,4,3,50,0,0,Mallorca,Girona,January,mallorca,girona,2026-01-04
+271983229253589.0,57,43,Alaves,Oviedo January,7,18,33,6,5,85,0,0,Alaves,Oviedo,January,alaves,oviedo,2026-01-04
+217927695836100.0,45,55,Real,Sociedad Atletico Madrid January,8,18,20,2,1,87,0,0,Real Sociedad,Atletico Madrid,January,real sociedad,atletico madrid,2026-01-04
+7319209009324.0,43,57,Getafe,Real Sociedad January,3,6,42,5,3,66,0,0,Getafe,Real Sociedad,January,getafe,real sociedad,2026-01-09
+27836622027224.0,42,58,Oviedo,Real Betis January,3,13,40,6,5,66,0,0,Oviedo,Real Betis,January,oviedo,real betis,2026-01-10
+134879013270729.0,44,56,Villarreal,Alaves January,4,11,31,5,4,25,0,0,Villarreal,Alaves,January,villarreal,alaves,2026-01-10
+146753782725831.0,46,54,Girona,Osasuna January,4,8,0,0,0,75,0,0,Girona,Osasuna,January,girona,osasuna,2026-01-10
+174114872050505.0,39,61,Valencia,Elche January,4,16,20,1,0,75,0,0,Valencia,Elche,January,valencia,elche,2026-01-10
+17797721164414.0,53,47,Rayo,Vallecano Mallorca January,5,14,22,2,1,60,0,0,Rayo Vallecano,Mallorca,January,rayo vallecano,mallorca,2026-01-11
+195067591372973.0,49,51,Levante,Espanyol January,2,8,16,3,2,50,0,0,Levante,Espanyol,January,levante,espanyol,2026-01-11
+57154172260964.0,59,41,Sevilla,Celta Vigo January,2,7,78,7,6,100,0,0,Sevilla,Celta Vigo,January,sevilla,celta vigo,2026-01-12
+97513167405980.0,49,51,Espanyol,Girona January,2,14,57,4,2,100,0,0,Espanyol,Girona,January,espanyol,girona,2026-01-16
+120639064914438.0,70,30,Real,Madrid Levante January,11,26,0,0,0,81,0,0,Real Madrid,Levante,January,real madrid,levante,2026-01-17
+100507923486561.0,51,49,Mallorca,Athletic Club January,9,17,52,11,9,55,0,0,Mallorca,Athletic Club,January,mallorca,athletic club,2026-01-17
+241289403551744.0,51,49,Osasuna,Oviedo January,5,16,38,5,3,40,0,0,Osasuna,Oviedo,January,osasuna,oviedo,2026-01-17
+140509386351702.0,60,40,Real,Betis Villarreal January,6,15,33,3,3,66,0,0,Real Betis,Villarreal,January,real betis,villarreal,2026-01-17
+49981878868916.0,55,45,Getafe,Valencia January,3,14,14,1,0,100,0,0,Getafe,Valencia,January,getafe,valencia,2026-01-18
+114188927341603.0,54,46,Atletico,Madrid Alaves January,6,23,0,0,0,66,0,0,Atletico Madrid,Alaves,January,atletico madrid,alaves,2026-01-18
+151807189121311.0,49,51,Celta,Vigo Rayo Vallecano January,7,11,21,3,3,57,0,0,Celta Vigo,Rayo Vallecano,January,celta vigo,rayo vallecano,2026-01-18
+229214180995221.0,27,73,Real,Sociedad Barcelona January,6,7,36,9,8,50,0,0,Real Sociedad,Barcelona,January,real sociedad,barcelona,2026-01-18
+265862638998493.0,50,50,Elche,Sevilla January,5,10,32,8,6,60,0,0,Elche,Sevilla,January,elche,sevilla,2026-01-19
+122764594323375.0,42,58,Levante,Elche January,6,26,50,3,1,33,0,0,Levante,Elche,January,levante,elche,2026-01-23
+249209640712975.0,67,33,Rayo,Vallecano Osasuna January,4,11,36,5,3,75,0,0,Rayo Vallecano,Osasuna,January,rayo vallecano,osasuna,2026-01-24
+266097448106403.0,47,53,Valencia,Espanyol January,5,10,38,6,5,40,0,0,Valencia,Espanyol,January,valencia,espanyol,2026-01-24
+59934689754353.0,50,50,Sevilla,Athletic Club January,7,10,20,3,3,71,0,0,Sevilla,Athletic Club,January,sevilla,athletic club,2026-01-24
+1723534310882.0,42,58,Villarreal,Real Madrid January,1,8,29,4,2,100,0,0,Villarreal,Real Madrid,January,villarreal,real madrid,2026-01-24
+87936432211056.0,61,39,Atletico,Madrid Mallorca January,8,17,17,1,1,87,0,0,Atletico Madrid,Mallorca,January,atletico madrid,mallorca,2026-01-25
+80696913913348.0,73,27,Barcelona,Oviedo January,7,15,25,3,3,57,0,0,Barcelona,Oviedo,January,barcelona,oviedo,2026-01-25
+267070128393503.0,36,64,Real,Sociedad Celta Vigo January,4,10,24,4,2,25,0,0,Real Sociedad,Celta Vigo,January,real sociedad,celta vigo,2026-01-25
+212324418555205.0,45,56,Alaves,Real Betis January,9,17,22,4,3,77,0,0,Alaves,Real Betis,January,alaves,real betis,2026-01-25
+249170157109194.0,69,31,Girona,Getafe January,4,13,25,2,1,75,0,0,Girona,Getafe,January,girona,getafe,2026-01-26
+211830410333780.0,50,50,Espanyol,Alaves January,3,10,64,7,5,66,0,0,Espanyol,Alaves,January,espanyol,alaves,2026-01-30
+97738189384961.0,34,66,Oviedo,Girona January,4,8,11,1,1,75,0,0,Oviedo,Girona,January,oviedo,girona,2026-01-31
+88196758283503.0,47,53,Osasuna,Villarreal January,5,15,80,4,2,40,0,0,Osasuna,Villarreal,January,osasuna,villarreal,2026-01-31
+213655822347260.0,45,55,Levante,Atletico Madrid January,2,10,40,4,4,100,0,0,Levante,Atletico Madrid,January,levante,atletico madrid,2026-01-31
+233084514322073.0,39,61,Elche,Barcelona January,3,9,27,8,4,66,0,0,Elche,Barcelona,January,elche,barcelona,2026-01-31
+103873934296763.0,57,43,Real,Madrid Rayo Vallecano February,6,16,36,4,3,66,0,0,Real Madrid,Rayo Vallecano,February,real madrid,rayo vallecano,2026-02-01
+134449565887025.0,53,47,Real,Betis Valencia February,2,14,27,4,2,0,0,0,Real Betis,Valencia,February,real betis,valencia,2026-02-01
+99010512310485.0,38,62,Getafe,Celta Vigo February,2,9,20,1,1,100,0,0,Getafe,Celta Vigo,February,getafe,celta vigo,2026-02-01
+1981896096722.0,55,45,Athletic,Club Real Sociedad February,4,19,75,6,4,75,0,0,Athletic Club,Real Sociedad,February,athletic club,real sociedad,2026-02-01
+71726453882620.0,33,67,Mallorca,Sevilla February,7,11,33,5,4,28,0,0,Mallorca,Sevilla,February,mallorca,sevilla,2026-02-02
+58845994898066.0,57,43,Celta,Vigo Osasuna February,4,18,25,2,0,75,0,0,Celta Vigo,Osasuna,February,celta vigo,osasuna,2026-02-06
+123845363308532.0,76,24,Barcelona,Mallorca February,7,24,44,4,4,57,0,0,Barcelona,Mallorca,February,barcelona,mallorca,2026-02-07
+31635900754577.0,34,66,Real,Sociedad Elche February,3,11,45,5,4,0,0,0,Real Sociedad,Elche,February,real sociedad,elche,2026-02-07
+96380130563499.0,60,40,Alaves,Getafe February,5,13,29,5,3,100,0,0,Alaves,Getafe,February,alaves,getafe,2026-02-08
+37099678724814.0,55,45,Athletic,Club Levante February,7,22,50,3,1,42,0,0,Athletic Club,Levante,February,athletic club,levante,2026-02-08
+249165185143039.0,51,49,Sevilla,Girona February,3,11,40,6,4,66,0,0,Sevilla,Girona,February,sevilla,girona,2026-02-08
+238364193930544.0,65,35,Atletico,Madrid Real Betis February,5,10,50,4,3,100,0,0,Atletico Madrid,Real Betis,February,atletico madrid,real betis,2026-02-08
+224127150371417.0,40,60,Valencia,Real Madrid February,0,7,55,6,4,0,0,0,Valencia,Real Madrid,February,valencia,real madrid,2026-02-08
+182653505299194.0,49,51,Villarreal,Espanyol February,3,10,22,2,1,0,0,0,Villarreal,Espanyol,February,villarreal,espanyol,2026-02-09

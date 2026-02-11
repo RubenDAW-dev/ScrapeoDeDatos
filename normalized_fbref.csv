@@ -1,0 +1,229 @@
+poss_home,poss_away,home_team,away_team,shots_ot_home,shots_total_home,shots_ot_away,shots_total_away,saves_home,saves_away,cards_home,cards_away
+44,56,Girona,Rayo Vallecano August,2,7,31,5,2,50,0,0
+68,32,Villarreal,Oviedo August,10,25,80,4,3,80,0,0
+29,71,Mallorca,Barcelona August,1,4,33,8,5,100,0,0
+62,38,Alaves,Levante August,4,15,43,3,2,50,0,0
+54,46,Valencia,Real Sociedad August,2,18,23,3,2,50,0,0
+69,31,Celta,Vigo Getafe August,3,11,30,3,1,100,0,0
+46,54,Athletic,Club Sevilla August,3,14,50,6,4,0,0,0
+40,60,Espanyol,Atletico Madrid August,5,9,27,4,3,60,0,0
+68,32,Elche,Real Betis August,2,6,33,4,3,50,0,0
+71,29,Real,Madrid Osasuna August,5,18,0,0,0,80,0,0
+49,51,Real,Betis Alaves August,5,16,45,5,5,100,0,0
+50,50,Mallorca,Celta Vigo August,4,12,25,2,1,75,0,0
+58,42,Atletico,Madrid Elche August,6,13,33,2,1,83,0,0
+18,82,Levante,Barcelona August,5,8,38,10,9,60,0,0
+55,45,Osasuna,Valencia August,4,16,25,1,1,75,0,0
+62,38,Real,Sociedad Espanyol August,7,15,21,3,1,71,0,0
+53,48,Villarreal,Girona August,7,19,40,2,2,28,0,0
+35,65,Oviedo,Real Madrid August,3,6,38,10,8,100,0,0
+41,60,Athletic,Club Rayo Vallecano August,4,11,17,1,1,75,0,0
+71,29,Sevilla,Getafe August,3,12,75,6,4,100,0,0
+47,53,Celta,Vigo Real Betis August,5,14,29,2,0,80,0,0
+67,33,Elche,Levante August,5,16,9,1,1,60,0,0
+57,43,Valencia,Getafe August,4,7,9,1,1,25,0,0
+40,60,Alaves,Atletico Madrid August,2,5,40,6,5,50,0,0
+43,57,Oviedo,Real Sociedad August,1,8,33,6,6,0,0,0
+58,42,Girona,Sevilla August,5,20,31,4,2,100,0,0
+58,42,Real,Madrid Mallorca August,7,17,56,5,2,71,0,0
+65,35,Celta,Vigo Villarreal August,2,10,38,3,2,100,0,0
+51,50,Real,Betis Athletic Club August,2,9,40,6,5,50,0,0
+46,55,Espanyol,Osasuna August,4,10,30,3,3,75,0,0
+43,57,Rayo,Vallecano Barcelona August,6,12,25,3,2,83,0,0
+53,47,Sevilla,Elche September,3,7,40,2,0,33,0,0
+48,52,Getafe,Oviedo September,3,10,20,1,1,33,0,0
+64,36,Real,Sociedad Real Madrid September,4,23,38,6,4,75,0,0
+58,42,Athletic,Club Alaves September,3,12,50,2,2,100,0,0
+61,39,Atletico,Madrid Villarreal September,3,8,13,1,1,33,0,0
+60,40,Celta,Vigo Girona September,7,21,62,8,7,85,0,0
+33,67,Levante,Real Betis September,2,5,32,9,7,0,0,0
+36,64,Osasuna,Rayo Vallecano September,7,9,32,6,6,57,0,0
+72,28,Barcelona,Valencia September,10,24,50,1,1,50,0,0
+38,63,Espanyol,Mallorca September,3,9,42,10,8,0,0,0
+50,50,Real,Betis Real Sociedad September,6,21,45,5,4,66,0,0
+35,65,Girona,Levante September,1,7,50,7,2,100,0,0
+72,28,Real,Madrid Espanyol September,5,16,13,1,1,60,0,0
+48,52,Alaves,Sevilla September,5,8,33,3,1,80,0,0
+66,34,Villarreal,Osasuna September,8,26,50,3,2,75,0,0
+44,56,Valencia,Athletic Club September,5,13,45,5,5,60,0,0
+59,41,Rayo,Vallecano Celta Vigo September,5,15,56,5,4,80,0,0
+42,58,Mallorca,Atletico Madrid September,3,8,58,7,5,66,0,0
+61,39,Elche,Oviedo September,5,15,33,4,4,80,0,0
+71,29,Barcelona,Getafe September,7,16,67,2,2,57,0,0
+56,44,Espanyol,Valencia September,10,21,40,2,0,60,0,0
+67,33,Athletic,Club Girona September,5,17,50,3,2,80,0,0
+38,62,Levante,Real Madrid September,2,11,42,10,6,50,0,0
+66,35,Sevilla,Villarreal September,2,16,42,5,3,50,0,0
+46,54,Getafe,Alaves September,1,7,40,4,4,0,0,0
+61,39,Atletico,Madrid Rayo Vallecano September,8,20,33,3,1,62,0,0
+64,36,Real,Sociedad Mallorca September,4,17,43,3,3,75,0,0
+39,61,Osasuna,Elche September,2,9,33,4,3,50,0,0
+21,80,Oviedo,Barcelona September,3,7,45,10,7,66,0,0
+60,40,Girona,Espanyol September,3,12,25,5,5,100,0,0
+54,46,Getafe,Levante September,4,11,27,3,2,75,0,0
+37,63,El,Derbi Madrileno Atletico Madrid Real Madrid September,7,13,33,2,0,28,0,0
+39,62,Mallorca,Alaves September,3,12,25,3,3,33,0,0
+42,58,Villarreal,Athletic Club September,5,14,25,4,4,80,0,0
+64,36,Rayo,Vallecano Sevilla September,6,18,25,1,0,100,0,0
+62,38,Elche,Celta Vigo September,8,17,25,2,1,62,0,0
+75,25,Barcelona,Real Sociedad September,12,22,29,2,1,66,0,0
+51,50,Real,Betis Osasuna September,6,12,8,1,1,66,0,0
+57,43,Valencia,Oviedo September,5,16,40,4,2,60,0,0
+58,42,Osasuna,Getafe October,3,7,33,2,1,66,0,0
+57,43,Oviedo,Levante October,2,13,36,5,3,100,0,0
+45,55,Girona,Valencia October,4,4,32,6,5,50,0,0
+52,48,Athletic,Club Mallorca October,5,18,33,2,1,60,0,0
+70,31,Real,Madrid Villarreal October,7,26,22,2,1,57,0,0
+47,53,Alaves,Elche October,5,25,50,3,2,40,0,0
+39,61,Sevilla,Barcelona October,5,13,47,8,7,20,0,0
+50,50,Espanyol,Real Betis October,5,14,25,3,1,60,0,0
+51,49,Real,Sociedad Rayo Vallecano October,3,10,29,2,1,100,0,0
+59,41,Celta,Vigo Atletico Madrid October,4,18,17,1,1,75,0,0
+61,39,Oviedo,Espanyol October,4,13,53,10,8,100,0,0
+58,42,Sevilla,Mallorca October,4,13,86,6,3,75,0,0
+68,32,Barcelona,Girona October,9,27,36,4,3,77,0,0
+39,61,Villarreal,Real Betis October,3,7,19,3,1,66,0,0
+59,41,Atletico,Madrid Osasuna October,9,18,22,2,2,88,0,0
+69,31,Elche,Athletic Club October,5,15,25,1,1,100,0,0
+41,59,Celta,Vigo Real Sociedad October,1,4,41,7,6,0,0,0
+54,46,Levante,Rayo Vallecano October,4,17,50,5,1,100,0,0
+24,76,Getafe,Real Madrid October,1,7,43,10,9,100,0,0
+63,38,Alaves,Valencia October,3,13,40,2,2,100,0,0
+40,60,Real,Sociedad Sevilla October,3,5,17,1,0,33,0,0
+65,35,Girona,Oviedo October,6,8,50,5,2,50,0,0
+32,68,Espanyol,Elche October,7,16,31,4,4,85,0,0
+57,43,Athletic,Club Getafe October,4,7,38,3,3,100,0,0
+57,43,Valencia,Villarreal October,3,15,42,5,3,100,0,0
+63,37,Mallorca,Levante October,4,20,38,5,4,100,0,0
+32,69,El,Clasico Real Madrid Barcelona October,10,23,40,6,4,80,0,0
+62,39,Osasuna,Celta Vigo October,7,17,45,5,2,71,0,0
+54,47,Rayo,Vallecano Alaves October,5,15,17,2,2,80,0,0
+57,43,Real,Betis Atletico Madrid October,5,17,44,4,2,100,0,0
+40,60,Getafe,Girona October,4,12,50,4,3,50,0,0
+47,53,Villarreal,Rayo Vallecano November,7,16,23,3,3,42,0,0
+47,53,Atletico,Madrid Sevilla November,6,15,20,2,2,50,0,0
+51,49,Real,Sociedad Athletic Club November,5,9,36,4,2,40,0,0
+65,35,Real,Madrid Valencia November,11,21,25,1,1,54,0,0
+36,64,Levante,Celta Vigo November,3,9,30,6,5,66,0,0
+54,46,Alaves,Espanyol November,4,13,11,2,1,50,0,0
+49,51,Barcelona,Elche November,5,17,33,3,2,40,0,0
+53,48,Real,Betis Mallorca November,8,15,7,1,1,62,0,0
+53,47,Oviedo,Osasuna November,2,8,45,5,5,100,0,0
+63,37,Elche,Real Sociedad November,3,12,38,5,4,66,0,0
+52,48,Girona,Alaves November,2,10,36,5,5,50,0,0
+47,53,Sevilla,Osasuna November,4,10,33,3,3,75,0,0
+74,26,Atletico,Madrid Levante November,10,25,50,3,2,80,0,0
+55,45,Espanyol,Villarreal November,3,14,33,3,2,100,0,0
+48,52,Athletic,Club Oviedo November,7,21,50,2,2,100,0,0
+46,55,Rayo,Vallecano Real Madrid November,2,13,24,5,5,100,0,0
+39,61,Mallorca,Getafe November,4,6,21,3,2,50,0,0
+43,57,Valencia,Real Betis November,4,17,22,2,1,75,0,0
+39,62,Celta,Vigo Barcelona November,3,5,43,9,5,33,0,0
+60,41,Valencia,Levante November,3,14,0,0,0,66,0,0
+52,49,Alaves,Celta Vigo November,2,5,57,4,3,100,0,0
+68,32,Barcelona,Athletic Club November,7,19,15,2,2,42,0,0
+46,54,Osasuna,Real Sociedad November,4,14,47,9,6,100,0,0
+58,42,Villarreal,Mallorca November,7,14,33,3,2,71,0,0
+39,61,Oviedo,Rayo Vallecano November,3,8,27,3,2,66,0,0
+54,46,Real,Betis Girona November,7,23,36,4,3,85,0,0
+41,59,Getafe,Atletico Madrid November,1,9,46,6,6,100,0,0
+49,52,Elche,Real Madrid November,6,15,35,7,5,66,0,0
+33,67,Espanyol,Sevilla November,5,8,27,6,5,60,0,0
+34,67,Getafe,Elche November,6,15,44,4,4,66,0,0
+53,48,Mallorca,Osasuna November,4,7,14,2,0,50,0,0
+69,31,Barcelona,Alaves November,6,18,33,3,1,50,0,0
+56,44,Levante,Athletic Club November,4,11,29,4,1,100,0,0
+52,48,Atletico,Madrid Oviedo November,8,14,8,1,1,75,0,0
+60,40,Real,Sociedad Villarreal November,7,18,50,5,1,71,0,0
+65,35,Sevilla,Real Betis November,3,9,44,4,2,66,0,0
+60,40,Celta,Vigo Espanyol November,4,11,22,2,1,100,0,0
+40,60,Girona,Real Madrid November,4,10,16,4,4,75,0,0
+56,44,Rayo,Vallecano Valencia December,7,19,20,2,0,71,0,0
+58,42,Barcelona,Atletico Madrid December,6,19,29,2,1,50,0,0
+38,62,Athletic,Club Real Madrid December,4,9,62,8,5,100,0,0
+62,38,Oviedo,Mallorca December,3,15,46,6,5,100,0,0
+61,39,Villarreal,Getafe December,5,10,0,0,0,60,0,0
+38,62,Alaves,Real Sociedad December,3,14,10,1,1,66,0,0
+38,62,Real,Betis Barcelona December,5,17,50,8,3,40,0,0
+44,56,Athletic,Club Atletico Madrid December,3,14,43,3,3,66,0,0
+58,42,Elche,Girona December,6,11,50,4,4,50,0,0
+48,52,Valencia,Sevilla December,3,11,25,1,1,66,0,0
+37,64,Espanyol,Rayo Vallecano December,2,9,33,2,2,50,0,0
+58,42,Real,Madrid Celta Vigo December,7,23,71,5,3,100,0,0
+41,59,Osasuna,Levante December,6,14,45,5,4,66,0,0
+47,53,Real,Sociedad Girona December,4,9,21,3,1,75,0,0
+46,54,Atletico,Madrid Valencia December,6,10,15,2,1,66,0,0
+42,58,Mallorca,Elche December,8,15,0,0,0,62,0,0
+80,20,Barcelona,Osasuna December,7,24,67,2,2,71,0,0
+56,44,Getafe,Espanyol December,1,11,67,4,3,100,0,0
+56,44,Sevilla,Oviedo December,7,13,25,1,1,42,0,0
+50,50,Celta,Vigo Athletic Club December,2,5,14,2,1,0,0,0
+52,48,Alaves,Real Madrid December,2,6,46,6,4,50,0,0
+59,41,Rayo,Vallecano Real Betis December,7,23,46,6,6,100,0,0
+71,29,Valencia,Mallorca December,2,17,50,2,1,50,0,0
+56,44,Oviedo,Celta Vigo December,3,10,33,2,2,100,0,0
+44,56,Levante,Real Sociedad December,3,13,33,6,5,66,0,0
+47,53,Osasuna,Alaves December,7,16,43,3,3,57,0,0
+53,47,Real,Madrid Sevilla December,8,18,36,5,5,75,0,0
+51,49,Girona,Atletico Madrid December,2,9,43,6,3,100,0,0
+21,80,Villarreal,Barcelona December,5,14,26,5,2,100,0,0
+47,54,Elche,Rayo Vallecano December,6,18,44,8,8,33,0,0
+49,51,Real,Betis Getafe December,8,19,20,3,3,50,0,0
+65,35,Athletic,Club Espanyol December,7,17,50,5,3,85,0,0
+60,40,Rayo,Vallecano Getafe January,4,13,33,4,3,75,0,0
+40,60,Celta,Vigo Valencia January,6,12,31,5,4,33,0,0
+49,51,Osasuna,Athletic Club January,4,11,38,6,5,75,0,0
+78,22,Elche,Villarreal January,2,15,33,4,1,50,0,0
+31,69,Espanyol,Barcelona January,7,14,40,6,4,85,0,0
+65,36,Sevilla,Levante January,7,15,67,4,1,85,0,0
+61,39,Real,Madrid Real Betis January,9,19,38,5,4,44,0,0
+49,51,Mallorca,Girona January,2,9,44,4,3,50,0,0
+57,43,Alaves,Oviedo January,7,18,33,6,5,85,0,0
+45,55,Real,Sociedad Atletico Madrid January,8,18,20,2,1,87,0,0
+43,57,Getafe,Real Sociedad January,3,6,42,5,3,66,0,0
+42,58,Oviedo,Real Betis January,3,13,40,6,5,66,0,0
+44,56,Villarreal,Alaves January,4,11,31,5,4,25,0,0
+46,54,Girona,Osasuna January,4,8,0,0,0,75,0,0
+39,61,Valencia,Elche January,4,16,20,1,0,75,0,0
+53,47,Rayo,Vallecano Mallorca January,5,14,22,2,1,60,0,0
+49,51,Levante,Espanyol January,2,8,16,3,2,50,0,0
+59,41,Sevilla,Celta Vigo January,2,7,78,7,6,100,0,0
+49,51,Espanyol,Girona January,2,14,57,4,2,100,0,0
+70,30,Real,Madrid Levante January,11,26,0,0,0,81,0,0
+51,49,Mallorca,Athletic Club January,9,17,52,11,9,55,0,0
+51,49,Osasuna,Oviedo January,5,16,38,5,3,40,0,0
+60,40,Real,Betis Villarreal January,6,15,33,3,3,66,0,0
+55,45,Getafe,Valencia January,3,14,14,1,0,100,0,0
+54,46,Atletico,Madrid Alaves January,6,23,0,0,0,66,0,0
+49,51,Celta,Vigo Rayo Vallecano January,7,11,21,3,3,57,0,0
+27,73,Real,Sociedad Barcelona January,6,7,36,9,8,50,0,0
+50,50,Elche,Sevilla January,5,10,32,8,6,60,0,0
+42,58,Levante,Elche January,6,26,50,3,1,33,0,0
+67,33,Rayo,Vallecano Osasuna January,4,11,36,5,3,75,0,0
+47,53,Valencia,Espanyol January,5,10,38,6,5,40,0,0
+50,50,Sevilla,Athletic Club January,7,10,20,3,3,71,0,0
+42,58,Villarreal,Real Madrid January,1,8,29,4,2,100,0,0
+61,39,Atletico,Madrid Mallorca January,8,17,17,1,1,87,0,0
+73,27,Barcelona,Oviedo January,7,15,25,3,3,57,0,0
+36,64,Real,Sociedad Celta Vigo January,4,10,24,4,2,25,0,0
+45,56,Alaves,Real Betis January,9,17,22,4,3,77,0,0
+69,31,Girona,Getafe January,4,13,25,2,1,75,0,0
+50,50,Espanyol,Alaves January,3,10,64,7,5,66,0,0
+34,66,Oviedo,Girona January,4,8,11,1,1,75,0,0
+47,53,Osasuna,Villarreal January,5,15,80,4,2,40,0,0
+45,55,Levante,Atletico Madrid January,2,10,40,4,4,100,0,0
+39,61,Elche,Barcelona January,3,9,27,8,4,66,0,0
+57,43,Real,Madrid Rayo Vallecano February,6,16,36,4,3,66,0,0
+53,47,Real,Betis Valencia February,2,14,27,4,2,0,0,0
+38,62,Getafe,Celta Vigo February,2,9,20,1,1,100,0,0
+55,45,Athletic,Club Real Sociedad February,4,19,75,6,4,75,0,0
+33,67,Mallorca,Sevilla February,7,11,33,5,4,28,0,0
+57,43,Celta,Vigo Osasuna February,4,18,25,2,0,75,0,0
+76,24,Barcelona,Mallorca February,7,24,44,4,4,57,0,0
+34,66,Real,Sociedad Elche February,3,11,45,5,4,0,0,0
+60,40,Alaves,Getafe February,5,13,29,5,3,100,0,0
+55,45,Athletic,Club Levante February,7,22,50,3,1,42,0,0
+51,49,Sevilla,Girona February,3,11,40,6,4,66,0,0
+65,35,Atletico,Madrid Real Betis February,5,10,50,4,3,100,0,0
+40,60,Valencia,Real Madrid February,0,7,55,6,4,0,0,0
+49,51,Villarreal,Espanyol February,3,10,22,2,1,0,0,0
