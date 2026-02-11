@@ -13,7 +13,7 @@ Elimina:
 import pandas as pd
 
 INPUT = "jugadores_raw_with_id.csv"
-OUTPUT = "jugadores_normalizado.csv"
+OUTPUT = "jugadores_estadisticas_normalizado.csv"
 
 print("📂 Leyendo jugadores_raw_with_id.csv ...")
 df = pd.read_csv(INPUT, dtype=str)
