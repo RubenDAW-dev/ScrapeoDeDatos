@@ -15,11 +15,8 @@ def normalize_text(s: str) -> str:
     if not isinstance(s, str):
         return ""
     s = s.strip()
-    # quitar tildes
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
-    # quitar signos (dejamos letras/números/espacios/guion bajo/guion)
-    s = re.sub(r"[^\w\s-]", " ", s)
-    # guiones a espacios y colapsar
+    s = re.sub(r"[^\w\s-]", " ", s)        # deja letras/numeros/_/espacio/-
     s = s.replace("-", " ")
     s = re.sub(r"\s+", " ", s).strip().lower()
     return s
@@ -30,41 +27,75 @@ def generar_id(home_norm: str, away_norm: str, date_str: str) -> int | None:
         return None
     base = f"{home_norm}_{away_norm}_{date_str}"
     h = hashlib.md5(base.encode()).hexdigest()
-    return int(h[:12], 16)  # 12 hex ~ 48 bits -> int cabal
+    return int(h[:12], 16)  # 12 hex ~ 48 bits -> entero estable
 
 # Meses en inglés (fixtures vienen con Date->%B)
 MONTHS = {"January","February","March","April","May","June",
           "July","August","September","October","November","December"}
 
-# Palabras que "faltan" en home_team (se colaron al principio del away_team en tu stats)
-SUFFIX_TO_PULL = {"club","madrid","vigo","sociedad","betis","vallecano"}
+# >>> Mapeo explícito de sufijos que pertenecen al LOCAL según su "raíz"
+SUFFIX_BY_HOME_ROOT = {
+    "athletic": {"club"},
+    "real": {"madrid", "sociedad", "betis", "oviedo"},
+    "celta": {"vigo"},
+    "rayo": {"vallecano"},
+    "atletico": {"madrid"},
+    "atletico madrid": {"madrid"},  # por seguridad
+    "atlético": {"madrid"},         # si viniera con tilde
+}
+
+def _clean_tokens(s: str) -> list[str]:
+    """Limpia comas/espacios y devuelve tokens."""
+    s = (s or "").replace(",", " ").strip()
+    s = re.sub(r"\s+", " ", s)
+    return s.split() if s else []
 
 def fix_teams_and_month(home_raw: str, away_raw: str):
     """
-    Repara equipos en stats cuando 'home' quedó cortado y la 1ª palabra del 'away'
-    pertenece realmente al final del 'home' (Athletic [Club], Real [Madrid], etc).
-    Además extrae el mes (última palabra con nombre de mes).
+    Repara equipos cuando el sufijo del local quedó al inicio del visitante.
+    También quita el mes (si aparece al final del visitante).
+    Devuelve: (home_fixed, away_fixed, month_txt)
     """
-    h = (home_raw or "").replace(",", " ").strip()
-    a = (away_raw or "").replace(",", " ").strip()
+    # Limpieza inicial
+    h_tokens = _clean_tokens(home_raw)
+    a_tokens = _clean_tokens(away_raw)
 
-    tokens = a.split()
+    # Quitar mes (si el último token es un mes, o por si acaso repetido)
     month_txt = None
+    while a_tokens and a_tokens[-1] in MONTHS:
+        month_txt = a_tokens.pop()
+        # si hubiese doble mes por cualquier motivo, seguimos sacándolo
 
-    # Buscar el mes como última palabra que esté en MONTHS
-    for idx in range(len(tokens)-1, -1, -1):
-        if tokens[idx] in MONTHS:
-            month_txt = tokens[idx]
-            tokens.pop(idx)  # eliminar el mes del away
-            break
+    # Si no hay tokens, devolvemos tal cual
+    if not h_tokens:
+        return (home_raw or "").strip().replace(",", " "), " ".join(a_tokens).strip(), month_txt
 
-    # Si la primera palabra del away está en el conjunto a recuperar -> súmala a home
-    if tokens and tokens[0].lower() in SUFFIX_TO_PULL:
-        h_fixed = (h + " " + tokens[0]).strip()
-        a_fixed = " ".join(tokens[1:]).strip()
-    else:
-        h_fixed = h
-        a_fixed = " ".join(tokens).strip()
+    # Identificar raíz del local (primer token significativo)
+    home_root = normalize_text(h_tokens[0])
+
+    # >>> Normalizar la llave para buscar en el mapeo
+    # Casos como "Atletico," y similares ya están limpios por _clean_tokens
+    # pero igual hacemos robusto el acceso:
+    key_candidates = {home_root}
+    if len(h_tokens) >= 2:
+        key_candidates.add(normalize_text(h_tokens[0] + " " + h_tokens[1]))
+
+    # ¿Hay sufijos esperados para esta raíz?
+    expected_suffixes = set()
+    for k in key_candidates:
+        if k in SUFFIX_BY_HOME_ROOT:
+            expected_suffixes |= SUFFIX_BY_HOME_ROOT[k]
+
+    # Si hay sufijos esperados y el primer token del visitante coincide, lo movemos al local
+    if a_tokens and expected_suffixes:
+        first_away_norm = normalize_text(a_tokens[0])
+        if first_away_norm in expected_suffixes:
+            # Mover el sufijo al final del nombre del local
+            h_tokens.append(a_tokens.pop(0))
+
+    # Reconstruir
+    h_fixed = " ".join(h_tokens).strip()
+    a_fixed = " ".join(a_tokens).strip()
 
     return h_fixed, a_fixed, month_txt
 
@@ -86,7 +117,6 @@ def parse_fbref_match_url(url: str) -> tuple[str, str, str] | None:
     
     slug = match.group(1)
     parts = slug.split("-")
-    
     if len(parts) < 4:
         return None
     
@@ -95,9 +125,8 @@ def parse_fbref_match_url(url: str) -> tuple[str, str, str] | None:
     month_name = parts[-3]
     team_slug = "-".join(parts[:-3])
     team_parts = team_slug.split("-")
-    
-    home_parts = []
-    away_parts = []
+
+    home_parts, away_parts = [], []
     capitals_seen = 0
     found_second = False
     
@@ -106,7 +135,6 @@ def parse_fbref_match_url(url: str) -> tuple[str, str, str] | None:
             capitals_seen += 1
             if capitals_seen >= 2:
                 found_second = True
-        
         if found_second:
             away_parts.append(part)
         else:
@@ -156,15 +184,10 @@ print("=" * 70)
 print("\n📂 [1/4] Procesando laliga_fixtures.csv...")
 fixtures = pd.read_csv("laliga_fixtures.csv")
 
-# Filtrar filas válidas de partido: Date con formato YYYY-MM-DD, Home/Away no nulos
 fixtures = fixtures[fixtures["Date"].astype(str).str.match(r"^\d{4}-\d{2}-\d{2}$", na=False)]
 fixtures = fixtures.dropna(subset=["Home", "Away"])
-
-# Normalizar equipos en fixtures
 fixtures["home_norm"] = fixtures["Home"].apply(normalize_text)
 fixtures["away_norm"] = fixtures["Away"].apply(normalize_text)
-
-# Mes textual desde la fecha real
 fixtures["month_txt"] = pd.to_datetime(fixtures["Date"]).dt.strftime("%B")
 
 print(f"   ✅ {len(fixtures)} partidos procesados")
@@ -175,8 +198,6 @@ print(f"   ✅ {len(fixtures)} partidos procesados")
 
 print("\n📂 [2/4] Procesando normalized_fbref.csv...")
 stats = pd.read_csv("normalized_fbref.csv")
-
-# Guardamos columnas originales para no romper tu pipeline
 orig_cols = list(stats.columns)
 
 # Repara equipos y saca el mes desde away_team
@@ -195,28 +216,23 @@ stats["away_norm"] = stats["away_fixed"].apply(normalize_text)
 print(f"   ✅ {len(stats)} estadísticas procesadas")
 
 # =========================
-# 3) Emparejar stats -> fixtures por home_norm + away_norm + month_txt
-#     (obtener la fecha real del partido para stats)
+# 3) Emparejar stats -> fixtures
 # =========================
 
-join_cols_left  = ["home_norm", "away_norm", "month_txt"]
 join_cols_right = ["home_norm", "away_norm", "month_txt", "Date"]
-
 stats_merged = stats.merge(fixtures[join_cols_right], on=["home_norm", "away_norm", "month_txt"], how="left")
 
 # =========================
-# 4) Generar la MISMA ID para fixtures y stats
+# 4) Generar ID para fixtures y stats
 # =========================
 
 print("\n🔢 [3/4] Generando IDs...")
 
-# ID en fixtures
 fixtures["id"] = fixtures.apply(
     lambda r: generar_id(r["home_norm"], r["away_norm"], r["Date"]),
     axis=1
 )
 
-# ID en stats (usando la Date encontrada del merge)
 stats_merged["id"] = stats_merged.apply(
     lambda r: generar_id(r["home_norm"], r["away_norm"], r["Date"]),
     axis=1
@@ -231,18 +247,13 @@ jugadores_processed = False
 
 if os.path.exists(jugadores_file):
     print(f"\n📂 [4/4] Procesando {jugadores_file}...")
-    
     try:
-        # Leer con MultiIndex header
         jugadores = pd.read_csv(jugadores_file, header=[0, 1])
         jugadores = _flatten_columns(jugadores)
-        
         print(f"   ✅ {len(jugadores)} jugadores leídos")
         
         if "match_url" in jugadores.columns:
-            # Parsear URLs y generar IDs
             print("   🔍 Parseando URLs y generando IDs...")
-            
             parsed_data = []
             for idx, url in enumerate(jugadores["match_url"]):
                 result = parse_fbref_match_url(url)
@@ -254,69 +265,72 @@ if os.path.exists(jugadores_file):
                     parsed_data.append(id_val)
                 else:
                     parsed_data.append(None)
-                
                 if (idx + 1) % 1000 == 0:
                     print(f"      Procesadas {idx + 1}/{len(jugadores)} URLs...")
             
             jugadores["id"] = parsed_data
-            
-            # Stats
             ids_ok = jugadores["id"].notna().sum()
             ids_fail = jugadores["id"].isna().sum()
-            
             print(f"   ✅ IDs generadas: {ids_ok}")
             if ids_fail > 0:
                 print(f"   ⚠️  IDs fallidas: {ids_fail}")
             
-            # Reordenar: id primero
             cols = ["id"] + [c for c in jugadores.columns if c != "id"]
             jugadores = jugadores[cols]
-            
-            # Guardar
             jugadores.to_csv("jugadores_raw_with_id.csv", index=False, encoding='utf-8')
             jugadores_processed = True
             print(f"   💾 Guardado: jugadores_raw_with_id.csv")
         else:
             print(f"   ⚠️  No se encontró columna 'match_url' en {jugadores_file}")
-    
     except Exception as e:
         print(f"   ❌ Error procesando jugadores: {e}")
 else:
     print(f"\n⏭️  [4/4] No se encontró {jugadores_file}, saltando...")
 
 # =========================
-# 6) Guardar CSVs de salida (mismo formato + columna id)
+# 6) Guardar CSVs de salida
 # =========================
 
 print("\n💾 Guardando archivos finales...")
 
-# Para fixtures -> dejamos todas las columnas originales + id
+# Fixtures: todas las columnas originales + id (sin columnas auxiliares de normalización)
 fixtures_out = fixtures.drop(columns=["home_norm", "away_norm", "month_txt"])
 fixtures_out.to_csv("laliga_partidos_with_id.csv", index=False)
 print("   ✅ laliga_partidos_with_id.csv")
 
-# Para stats -> mantenemos tus columnas + añadimos:
-# id, home_fixed, away_fixed, Date (útil por si quieres auditar joins)
-stats_out = stats_merged.copy()
-# Reordenar: id primero
-cols_stats_out = ["id"] + [c for c in stats_out.columns if c != "id"]
-stats_out = stats_out[cols_stats_out]
+# >>> Stats: SOLO id + columnas originales PERO con equipos corregidos
+#     Sobrescribimos las columnas originales home_team/away_team con las corregidas
+stats_merged["home_team"] = stats_merged["home_fixed"]
+stats_merged["away_team"] = stats_merged["away_fixed"]
 
-stats_out.to_csv("normalized_estadisticas_equipos_with_id.csv", index=False)
+original_cols_final = [
+    "home_team", "away_team",
+    "poss_home", "poss_away",
+    "shots_ot_home", "shots_total_home",
+    "shots_ot_away", "shots_total_away",
+    "saves_home", "saves_away",
+    "cards_home", "cards_away",
+]
+
+# Si alguna columna no existiera en tu CSV original, filtramos las que sí están
+original_cols_final = [c for c in original_cols_final if c in stats_merged.columns]
+
+stats_out = stats_merged[["id"] + original_cols_final]
+stats_out.to_csv("normalized_estadisticas_equipos_with_id.csv", index=False, encoding="utf-8-sig")
 print("   ✅ normalized_estadisticas_equipos_with_id.csv")
 
 if jugadores_processed:
     print("   ✅ jugadores_raw_with_id.csv")
 
 # =========================
-# 7) Diagnóstico rápido en consola
+# 7) Diagnóstico rápido
 # =========================
 
 print("\n" + "=" * 70)
 print("RESUMEN")
 print("=" * 70)
 
-no_fecha = stats_out["Date"].isna().sum()
+no_fecha = stats_merged["Date"].isna().sum()
 print(f"📊 Partidos con ID: {len(fixtures_out)}")
 print(f"📊 Estadísticas con ID: {len(stats_out)}")
 if jugadores_processed:
@@ -324,6 +338,6 @@ if jugadores_processed:
 
 if no_fecha:
     print(f"\n⚠️  Filas de stats sin fecha: {no_fecha}")
-    print("   Sugerencia: ampliar SUFFIX_TO_PULL o revisar nombres en esos casos.")
+    print("   Sugerencia: revisa filas tipo titulares ('El Clasico...', 'El Derbi...') y exclúyelas si se cuelan.")
 
 print("\n✅ Proceso completado")
