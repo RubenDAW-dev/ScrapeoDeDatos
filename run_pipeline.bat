@@ -59,40 +59,40 @@ REM =====================================================
 REM                     SCRAPING
 REM =====================================================
 
-call :run_step "1/13" "laliga_estadisticas_partidos.py"
-call :run_step "2/13" "estadisticas_jugadores_partidos.py"
-call :run_step "3/13" "create_jugadores.py"
+call :run_step "1/14" "laliga_estadisticas_partidos.py"
+call :run_step "2/14" "estadisticas_jugadores_partidos.py"
+call :run_step "3/14" "create_jugadores.py"
 
 REM =====================================================
 REM              NORMALIZACION INICIAL
 REM =====================================================
 
-call :run_step "4/13" "normalizar_team_stats.py"
-call :run_step "5/13" "normalizar_jugadores.py"
+call :run_step "4/14" "normalizar_team_stats.py"
+call :run_step "5/14" "normalizar_jugadores.py"
 
 REM =====================================================
 REM                   GENERACIÓN DE IDs
 REM =====================================================
 
-call :run_step "6/13" "generar_ids_para_todos.py"
-call :run_step "7/13" "generar_ids_equipos.py"
-call :run_step "8/13" "generar_ids_jugadores.py"
+call :run_step "6/14" "generar_ids_para_todos.py"
+call :run_step "7/14" "generar_ids_equipos.py"
+call :run_step "8/14" "generar_ids_jugadores.py"
 
 REM =====================================================
 REM                ARCHIVOS FINALES (MAYÚSCULAS)
 REM =====================================================
 
-call :run_step "9/13"  "Equipo_Estadisticas_Final.py"
-call :run_step "10/13" "Jugador_Estadisticas_Final.py"
-call :run_step "11/13" "Partidos_Final.py"
+call :run_step "9/14"  "Equipo_Estadisticas_Final.py"
+call :run_step "10/14" "Jugador_Estadisticas_Final.py"
+call :run_step "11/14" "Partidos_Final.py"
 
 REM =====================================================
 REM                LIMPIEZA FINAL
 REM =====================================================
 
-call :run_step "12/13" "Limpiar_Team_Stats_Final.py"
-call :run_step "13/13" "Limpiar_Player_Stats_Final.py"
-
+call :run_step "12/14" "Limpiar_Team_Stats_Final.py"
+call :run_step "13/14" "Limpiar_Player_Stats_Final.py"
+call :run_step "14/14" "SepararDatosEquipoPartido.py"
 
 :end
 echo ============================================
