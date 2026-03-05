@@ -58,7 +58,7 @@ EQUIPOS_TEAM_ID = {
 # =========================
 # 1) Fixtures
 # =========================
-fixtures = pd.read_csv("laliga_fixtures.csv")
+fixtures = pd.read_csv("laliga_partidos.csv")
 
 fixtures = fixtures[fixtures["Date"].astype(str).str.match(r"^\d{4}-\d{2}-\d{2}$", na=False)]
 fixtures = fixtures.dropna(subset=["Home", "Away"])

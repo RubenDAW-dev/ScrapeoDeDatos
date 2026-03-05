@@ -62,6 +62,48 @@ def uncomment_fbref_tables(html):
 # ============================
 
 def read_player_tables(driver):
+    """
+    Lee TODAS las tablas de jugadores (standard, shooting, passing, misc...)
+    tanto visibles como comentadas, devolviendo un DF combinado.
+    """
+    html = driver.page_source
+
+    # 1. quitar comentarios FBref
+    html = re.sub(r"<!--|-->", "", html)
+
+    # 2. leer todas las tablas en la página
+    try:
+        dfs = pd.read_html(html)
+    except Exception:
+        return None
+
+    tablas_validas = []
+
+    for df in dfs:
+        df = df.copy()
+        df = _flatten_columns(df)
+
+        # descartamos las que obvio NO son de jugadores
+        if "Player" not in df.columns:
+            continue
+
+        # limpiar basura
+        df = df[df["Player"].notna()]
+        df = df[df["Player"] != "Player"]
+        df = df[~df["Player"].isin(["", "Starting XI", "Bench"])]
+
+        if df.empty:
+            continue
+
+        tablas_validas.append(df)
+
+    if not tablas_validas:
+        return None
+
+    # unir todas las tablas
+    final = pd.concat(tablas_validas, ignore_index=True)
+
+    return final
     """Extrae TODAS las tablas de jugadores."""
     all_tables = []
     stat_divs = driver.find_elements(By.CSS_SELECTOR, "div[id^='div_stats_']")

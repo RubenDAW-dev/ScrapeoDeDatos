@@ -10,15 +10,14 @@ echo Abriendo Chrome para pasar CAPTCHA...
 start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" ^
   --remote-debugging-port=9222 ^
   --user-data-dir="C:\ChromeScraping" ^
-  https://fbref.com/en/comps/12/schedule/La-Liga-Scores-and-Fixtures"
+  "https://fbref.com/en/comps/12/schedule/La-Liga-Scores-and-Fixtures"
 
 echo.
-echo  Cuando hayas pasado el CAPTCHA de FBref, vuelve aquí y pulsa una tecla.
+echo  Cuando hayas pasado el CAPTCHA de FBref, vuelve aqui y pulsa una tecla.
 pause >nul
 echo CAPTCHA pasado. Continuando pipeline...
 echo ----------------------------------------
 echo.
-
 
 echo ============================================
 echo      INICIANDO PIPELINE COMPLETO LALIGA
@@ -35,19 +34,17 @@ echo.
 
 set "FAIL_STEP="
 
-REM *** IMPORTANTE: SALTO AL MAIN PARA NO EJECUTAR LA FUNCION ***
 goto :main
 
 :run_step
-REM %1 = etiqueta visible, %2 = script
 echo [%~1] Ejecutando %~2 ...
 "%PYTHON%" "%DIR%\%~2"
 if errorlevel 1 (
-  echo ❌ Error en "%~2"
+  echo Error en "%~2"
   set "FAIL_STEP=%~1 - %~2"
   goto :end
 ) else (
-  echo ✔ OK: %~2
+  echo OK: %~2
 )
 echo ----------------------------------------
 echo.
@@ -59,40 +56,44 @@ REM =====================================================
 REM                     SCRAPING
 REM =====================================================
 
-call :run_step "1/14" "laliga_estadisticas_partidos.py"
-call :run_step "2/14" "estadisticas_jugadores_partidos.py"
-call :run_step "3/14" "create_jugadores.py"
+call :run_step "1/16" "laliga_partidos.py"
+call :run_step "2/16" "laliga_estadisticas_partidos.py"
+call :run_step "3/16" "estadisticas_jugadores_partidos.py"
+call :run_step "4/16" "create_jugadores.py"
 
 REM =====================================================
 REM              NORMALIZACION INICIAL
 REM =====================================================
 
-call :run_step "4/14" "normalizar_team_stats.py"
-call :run_step "5/14" "normalizar_jugadores.py"
+REM -- jugadores_raw.csv ya existe tras el paso 4 --
+call :run_step "5/16" "generar_jugadores_raw_with_id.py"
+
+call :run_step "6/16" "normalizar_team_stats.py"
+call :run_step "7/16" "normalizar_jugadores.py"
 
 REM =====================================================
-REM                   GENERACIÓN DE IDs
+REM                   GENERACION DE IDs
 REM =====================================================
 
-call :run_step "6/14" "generar_ids_para_todos.py"
-call :run_step "7/14" "generar_ids_equipos.py"
-call :run_step "8/14" "generar_ids_jugadores.py"
+call :run_step "8/16" "generar_ids_para_todos.py"
+call :run_step "9/16" "generar_ids_equipos.py"
+call :run_step "10/16" "generar_ids_jugadores.py"
 
 REM =====================================================
-REM                ARCHIVOS FINALES (MAYÚSCULAS)
+REM                ARCHIVOS FINALES (MAYUSCULAS)
 REM =====================================================
 
-call :run_step "9/14"  "Equipo_Estadisticas_Final.py"
-call :run_step "10/14" "Jugador_Estadisticas_Final.py"
-call :run_step "11/14" "Partidos_Final.py"
+call :run_step "11/16" "Equipo_Estadisticas_Final.py"
+call :run_step "12/16" "Jugador_Estadisticas_Final.py"
+call :run_step "13/16" "Partidos_Final.py"
 
 REM =====================================================
 REM                LIMPIEZA FINAL
 REM =====================================================
 
-call :run_step "12/14" "Limpiar_Team_Stats_Final.py"
-call :run_step "13/14" "Limpiar_Player_Stats_Final.py"
-call :run_step "14/14" "SepararDatosEquipoPartido.py"
+call :run_step "14/16" "Limpiar_Team_Stats_Final.py"
+call :run_step "15/16" "Limpiar_Player_Stats_Final.py"
+call :run_step "16/16" "SepararDatosEquipoPartido.py"
 
 :end
 echo ============================================

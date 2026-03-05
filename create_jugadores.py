@@ -6,8 +6,16 @@ from bs4 import BeautifulSoup, Comment
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
+# =======================================================
+# CONFIG
+# =======================================================
 LIGA_PLAYERS_URL = "https://fbref.com/en/comps/12/stats/La-Liga-Stats"
 OUT_CSV = "jugadores_laliga.csv"
+
+
+# =======================================================
+# HELPERS
+# =======================================================
 
 def flatten_columns(cols):
     """Aplana MultiIndex de pandas.read_html."""
@@ -18,48 +26,56 @@ def flatten_columns(cols):
         flat.append(str(c))
     return flat
 
+
 def find_standard_player_table(html: str):
     """
-    Busca la tabla 'Player Standard Stats' (#stats_standard) tanto en DOM
-    como dentro de comentarios <!-- ... -->. Devuelve DataFrame o None.
+    Busca la tabla 'Player Standard Stats' (#stats_standard)
+    tanto visible como dentro de comentarios.
     """
     soup = BeautifulSoup(html, "lxml")
     candidate_html_tables = []
 
-    # 1) Tablas visibles en el DOM
+    # 1) Tablas visibles
     for table in soup.select("table#stats_standard"):
         candidate_html_tables.append(table.decode())
 
-    # 2) Tablas en comentarios (FBref suele meterlas aquí)
+    # 2) Tablas comentadas (FBref las oculta dentro de <!-- -->)
     for c in soup.find_all(string=lambda t: isinstance(t, Comment)):
         txt = str(c)
-        # Cubrimos ambos formatos: real y escapado
-        if (("<table" in txt and "</table>" in txt) or
-            ("&lt;table" in txt and "&lt;/table&gt;" in txt)) and "stats_standard" in txt:
+
+        if (
+            ("<table" in txt and "</table>" in txt)
+            or ("&lt;table" in txt and "&lt;/table&gt;" in txt)
+        ) and "stats_standard" in txt:
+
             sub = BeautifulSoup(txt, "lxml")
             for table in sub.select("table#stats_standard"):
                 candidate_html_tables.append(table.decode())
 
-    # 3) Convertimos a DataFrame y limpiamos
+    # 3) Convertir a DataFrame
     for html_tbl in candidate_html_tables:
         try:
             df = pd.read_html(StringIO(html_tbl))[0]
-        except ValueError:
+        except Exception:
             continue
+
         df.columns = flatten_columns(df.columns)
+
         if "Player" in df.columns:
-            # Quitar cabeceras repetidas que vienen como filas
             df = df[df["Player"].notna()]
             df = df[df["Player"] != "Player"]
+
         return df
 
     return None
 
+
 def clean_player_df(df: pd.DataFrame) -> pd.DataFrame:
-    """Limpieza básica/normalización."""
+    """Limpieza básica y renombrado."""
     for col in ["Rk", "Rank", "Ranking"]:
         if col in df.columns:
             df = df.drop(columns=[col])
+
     rename_map = {
         "Team": "Squad",
         "Equipo": "Squad",
@@ -68,47 +84,53 @@ def clean_player_df(df: pd.DataFrame) -> pd.DataFrame:
         "Posición": "Pos",
         "Edad": "Age",
     }
+
     df = df.rename(columns={k: v for k, v in rename_map.items() if k in df.columns})
+
     return df.dropna(how="all").reset_index(drop=True)
 
+
+# =======================================================
+# MAIN
+# =======================================================
+
 def main():
-    # 1) Conectar a tu Chrome abierto en 9222
+    # 1) Conectar con el Chrome REAL ya abierto
     options = Options()
-    options.add_experimental_option("debuggerAddress", "127.0.0.1:9222")
+    options.debugger_address = "127.0.0.1:9222"
     driver = webdriver.Chrome(options=options)
 
-    # 2) Navegar a la página de jugadores
-    print(f"🌐 Abriendo: {LIGA_PLAYERS_URL}")
-    driver.get(LIGA_PLAYERS_URL)
+    print("💠 Conectado al Chrome real.")
+    print("💠 Abre manualmente esta URL en ese Chrome:")
+    print(f"   {LIGA_PLAYERS_URL}")
+    print("💠 Cuando la página esté totalmente cargada, pulsa ENTER aquí...")
+    input()
 
-    # 3) Espera breve por si FBref termina de montar la página
-    time.sleep(2.0)
-
-    # 4) Capturar el HTML completo de la página renderizada
+    # 2) Capturar HTML de esa página
     html = driver.page_source
 
-    # 5) Extraer la tabla 'Player Standard Stats'
+    # 3) Buscar tabla de jugadores
     df = find_standard_player_table(html)
     if df is None or df.empty:
         with open("debug_players.html", "w", encoding="utf-8") as f:
             f.write(html)
-        raise RuntimeError(
-            "No se pudo localizar la tabla 'stats_standard'. "
-            "Se guardó debug_players.html para inspección."
-        )
+        raise RuntimeError("No se encontró la tabla #stats_standard. HTML guardado en debug_players.html")
 
-    # 6) Limpiar y exportar
+    # 4) Limpieza
     df = clean_player_df(df)
+
+    # 5) Guardar
     df.to_csv(OUT_CSV, index=False, encoding="utf-8-sig")
 
     print(f"✅ Archivo creado: {OUT_CSV}")
     print(f"🧍 Total jugadores: {len(df)}")
 
-    # Vistazo rápido
+    # Mostrar columnas relevantes si existen
     show_cols = [c for c in ["Player", "Nation", "Pos", "Squad", "Age", "MP", "Min", "Gls", "Ast"] if c in df.columns]
     if show_cols:
         print("\nEjemplo (primeras 15 filas):")
         print(df[show_cols].head(15))
+
 
 if __name__ == "__main__":
     main()
