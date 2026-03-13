@@ -2,57 +2,46 @@
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-
-# =====================================================
-#     CONECTAR A CHROME YA ABIERTO (9222)
-# =====================================================
+from bs4 import BeautifulSoup
 
 options = Options()
 options.debugger_address = "127.0.0.1:9222"
-
 driver = webdriver.Chrome(options=options)
 
 print("Conectado al Chrome real.")
 print("Cuando veas la tabla de LaLiga en FBref, pulsa ENTER…")
 input()
 
-# =====================================================
-#     OBTENER LA TABLA PRINCIPAL DE FIXTURES
-# =====================================================
+# Obtener HTML completo via page_source
+html = driver.page_source
+soup = BeautifulSoup(html, "html.parser")
 
-table = driver.find_element(By.CSS_SELECTOR, 'table[id^="sched_"]')
-html = table.get_attribute("outerHTML")
+table = soup.find("table", id="sched_2025-2026_12_1")
 
-df = pd.read_html(html)[0]
+if table is None:
+    print("❌ Tabla no encontrada")
+else:
+    print("✔ Tabla encontrada. Procesando...")
+    df = pd.read_html(str(table))[0]
 
-print("✔ Tabla encontrada. Procesando datos...")
+    # =====================================================
+    #     LIMPIEZA
+    # =====================================================
 
-# =====================================================
-#     LIMPIEZA Y NORMALIZADO
-# =====================================================
+    if "Score" not in df.columns:
+        df["Score"] = None
 
-# Asegurar columnas estándar
-if "Score" not in df.columns:
-    df["Score"] = None
+    def parse_score(score):
+        if isinstance(score, str) and "–" in score:
+            try:
+                h, a = score.split("–")
+                return int(h), int(a)
+            except:
+                return None, None
+        return None, None
 
-# Extraer goles si Score viene así: "2–1"
-def parse_score(score):
-    if isinstance(score, str) and "–" in score:
-        try:
-            h, a = score.split("–")
-            return int(h), int(a)
-        except:
-            return None, None
-    return None, None
+    df["HomeGoals"], df["AwayGoals"] = zip(*df["Score"].apply(parse_score))
 
-df["HomeGoals"], df["AwayGoals"] = zip(*df["Score"].apply(parse_score))
-
-# =====================================================
-#     GUARDAR ARCHIVO FINAL
-# =====================================================
-
-df.to_csv("laliga_partidos.csv", index=False, encoding="utf-8-sig")
-
-print("✔ Archivo actualizado: laliga_partidos.csv")
-print(df.head())
+    df.to_csv("laliga_partidos.csv", index=False, encoding="utf-8-sig")
+    print("✔ Archivo guardado: laliga_partidos.csv")
+    print(df.head())

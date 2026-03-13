@@ -259,16 +259,16 @@ Wk,Day,Date,Time,Home,Score,Away,Attendance,Venue,Referee,Match Report,Notes,Hom
 26,Sun,2026-03-01,21:00,Girona,1–2,Celta Vigo,11371,Estadi Municipal de Montilivi,Miguel Ángel Ortiz Arias,Match Report,,1.0,2.0,1233247401528
 26,Mon,2026-03-02,21:00,Real Madrid,0–1,Getafe,65104,Estadio Santiago Bernabéu,Alejandro Muñíz,Match Report,,0.0,1.0,60340945625436
 23,Wed,2026-03-04,19:00,Rayo Vallecano,3–0,Oviedo,11886,Campo de Fútbol de Vallecas,Alejandro Hernández,Match Report,,3.0,0.0,79172092382432
-27,Fri,2026-03-06,21:00,Celta Vigo,,Real Madrid,,Estadio Abanca Balaídos,,Head-to-Head,,,,60907575355198
-27,Sat,2026-03-07,14:00,Osasuna,,Mallorca,,Estadio El Sadar,,Head-to-Head,,,,15566123357321
-27,Sat,2026-03-07,16:15,Levante,,Girona,,Estadio Ciudad de Valencia,,Head-to-Head,,,,37688909818925
-27,Sat,2026-03-07,18:30,Atlético Madrid,,Real Sociedad,,Riyadh Air Metropolitano,,Head-to-Head,,,,24177153738949
-27,Sat,2026-03-07,21:00,Athletic Club,,Barcelona,,San Mamés,,Head-to-Head,,,,210706372104388
-27,Sun,2026-03-08,14:00,Villarreal,,Elche,,Estadio de la Cerámica,,Head-to-Head,,,,73358037351495
-27,Sun,2026-03-08,16:15,Getafe,,Real Betis,,Coliseum Alfonso Pérez,,Head-to-Head,,,,111504600670808
-27,Sun,2026-03-08,18:30,Sevilla,,Rayo Vallecano,,Estadio Ramón Sánchez Pizjuán,,Head-to-Head,,,,276590001159030
-27,Sun,2026-03-08,21:00,Valencia,,Alavés,,Estadio de Mestalla,,Head-to-Head,,,,236257366529703
-27,Mon,2026-03-09,21:00,Espanyol,,Oviedo,,RCDE Stadium,,Head-to-Head,,,,126758067200606
+27,Fri,2026-03-06,21:00,Celta Vigo,1–2,Real Madrid,22048,Estadio Abanca Balaídos,Isidro Díaz de Mera,Match Report,,1.0,2.0,60907575355198
+27,Sat,2026-03-07,14:00,Osasuna,2–2,Mallorca,19746,Estadio El Sadar,Alejandro Hernández,Match Report,,2.0,2.0,15566123357321
+27,Sat,2026-03-07,16:15,Levante,1–1,Girona,18542,Estadio Ciudad de Valencia,Guillermo Cuadra,Match Report,,1.0,1.0,37688909818925
+27,Sat,2026-03-07,18:30,Atlético Madrid,3–2,Real Sociedad,60788,Riyadh Air Metropolitano,Adrián Cordero,Match Report,,3.0,2.0,24177153738949
+27,Sat,2026-03-07,21:00,Athletic Club,0–1,Barcelona,50629,San Mamés,José Luis Munuera,Match Report,,0.0,1.0,210706372104388
+27,Sun,2026-03-08,14:00,Villarreal,2–1,Elche,16301,Estadio de la Cerámica,Víctor García,Match Report,,2.0,1.0,73358037351495
+27,Sun,2026-03-08,16:15,Getafe,2–0,Real Betis,8757,Coliseum Alfonso Pérez,Francisco Hernández,Match Report,,2.0,0.0,111504600670808
+27,Sun,2026-03-08,18:30,Sevilla,1–1,Rayo Vallecano,37178,Estadio Ramón Sánchez Pizjuán,Alejandro Muñíz,Match Report,,1.0,1.0,276590001159030
+27,Sun,2026-03-08,21:00,Valencia,3–2,Alavés,41512,Estadio de Mestalla,José Guzmán,Match Report,,3.0,2.0,236257366529703
+27,Mon,2026-03-09,21:00,Espanyol,1–1,Oviedo,24807,RCDE Stadium,Javier Alberola,Match Report,,1.0,1.0,126758067200606
 28,Fri,2026-03-13,21:00,Alavés,,Villarreal,,Estadio de Mendizorroza,,Head-to-Head,,,,182335306739226
 28,Sat,2026-03-14,14:00,Girona,,Athletic Club,,Estadi Municipal de Montilivi,,Head-to-Head,,,,2578967961222
 28,Sat,2026-03-14,16:15,Atlético Madrid,,Getafe,,Riyadh Air Metropolitano,,Head-to-Head,,,,175056615553893
